@@ -1,0 +1,1008 @@
+Getting events from management server 15.126.236.111 for execution id '06b885f3-2042-42e3-ae5a-3ceba377d3c9' [include_logs=True]
+2015-09-27T10:37:33 CFY <cl9> Starting 'install' workflow execution
+2015-09-27T10:37:35 CFY <cl9> [a_node_77f36] Creating node
+2015-09-27T10:37:35 CFY <cl9> [ellis_ip_d40a5] Creating node
+2015-09-27T10:37:35 CFY <cl9> [bono_ip_182fb] Creating node
+2015-09-27T10:37:35 CFY <cl9> [All_ports_open_700a3] Creating node
+2015-09-27T10:37:35 CFY <cl9> [ellis_ip_d40a5.create] Sending task 'neutron_plugin.floatingip.create'
+2015-09-27T10:37:35 CFY <cl9> [ellis_ip_d40a5.create] Task started 'neutron_plugin.floatingip.create'
+2015-09-27T10:37:35 CFY <cl9> [bono_ip_182fb.create] Sending task 'neutron_plugin.floatingip.create'
+2015-09-27T10:37:35 CFY <cl9> [All_ports_open_700a3.create] Sending task 'neutron_plugin.security_group.create'
+2015-09-27T10:37:35 CFY <cl9> [bono_ip_182fb.create] Task started 'neutron_plugin.floatingip.create'
+2015-09-27T10:37:35 CFY <cl9> [All_ports_open_700a3.create] Task started 'neutron_plugin.security_group.create'
+2015-09-27T10:37:35 CFY <cl9> [a_node_77f36] Configuring node
+2015-09-27T10:37:36 CFY <cl9> [a_node_77f36] Starting node
+2015-09-27T10:37:36 LOG <cl9> [ellis_ip_d40a5.create] INFO: Floating IP creation response: {u'router_id': None, u'status': u'ACTIVE', u'tenant_id': u'24912589714038', u'floating_network_id': u'7da74520-9d5e-427b-a508-213c84e69616', u'fixed_ip_address': None, u'floating_ip_address': u'15.126.225.151', u'port_id': None, u'id': u'4ddab7c5-0b9d-406b-ba9c-dffde49a90f6'}
+2015-09-27T10:37:36 CFY <cl9> [ellis_ip_d40a5.create] Task succeeded 'neutron_plugin.floatingip.create'
+2015-09-27T10:37:36 LOG <cl9> [bono_ip_182fb.create] INFO: Floating IP creation response: {u'router_id': None, u'status': u'ACTIVE', u'tenant_id': u'24912589714038', u'floating_network_id': u'7da74520-9d5e-427b-a508-213c84e69616', u'fixed_ip_address': None, u'floating_ip_address': u'15.126.225.154', u'port_id': None, u'id': u'8797907e-ee06-457d-b388-a3f805e42360'}
+2015-09-27T10:37:36 CFY <cl9> [ellis_ip_d40a5] Configuring node
+2015-09-27T10:37:36 CFY <cl9> [bono_ip_182fb.create] Task succeeded 'neutron_plugin.floatingip.create'
+2015-09-27T10:37:36 CFY <cl9> [All_ports_open_700a3.create] Task succeeded 'neutron_plugin.security_group.create'
+2015-09-27T10:37:36 CFY <cl9> [ellis_ip_d40a5] Starting node
+2015-09-27T10:37:36 CFY <cl9> [bono_ip_182fb] Configuring node
+2015-09-27T10:37:37 CFY <cl9> [All_ports_open_700a3] Configuring node
+2015-09-27T10:37:37 CFY <cl9> [bono_ip_182fb] Starting node
+2015-09-27T10:37:37 CFY <cl9> [All_ports_open_700a3] Starting node
+2015-09-27T10:37:37 CFY <cl9> [ralf_vm_bae57] Creating node
+2015-09-27T10:37:37 CFY <cl9> [homer_vm_a4f89] Creating node
+2015-09-27T10:37:37 CFY <cl9> [ralf_vm_bae57.create] Sending task 'nova_plugin.server.create'
+2015-09-27T10:37:37 CFY <cl9> [dns_vm_45b1e] Creating node
+2015-09-27T10:37:37 CFY <cl9> [ellis_vm_5cab7] Creating node
+2015-09-27T10:37:37 CFY <cl9> [ralf_vm_bae57.create] Task started 'nova_plugin.server.create'
+2015-09-27T10:37:38 CFY <cl9> [homestead_vm_65ab1] Creating node
+2015-09-27T10:37:38 CFY <cl9> [bono_vm_504b4] Creating node
+2015-09-27T10:37:38 CFY <cl9> [homestead_vm_65ab1.create] Sending task 'nova_plugin.server.create'
+2015-09-27T10:37:38 CFY <cl9> [bono_vm_504b4.create] Sending task 'nova_plugin.server.create'
+2015-09-27T10:37:38 CFY <cl9> [ellis_vm_5cab7.create] Sending task 'nova_plugin.server.create'
+2015-09-27T10:37:38 CFY <cl9> [homestead_vm_65ab1.create] Task started 'nova_plugin.server.create'
+2015-09-27T10:37:38 CFY <cl9> [sprout_vm_00fcb] Creating node
+2015-09-27T10:37:38 CFY <cl9> [bono_vm_504b4.create] Task started 'nova_plugin.server.create'
+2015-09-27T10:37:38 CFY <cl9> [ellis_vm_5cab7.create] Task started 'nova_plugin.server.create'
+2015-09-27T10:37:38 CFY <cl9> [dns_vm_45b1e.create] Sending task 'nova_plugin.server.create'
+2015-09-27T10:37:38 CFY <cl9> [sprout_vm_00fcb.create] Sending task 'nova_plugin.server.create'
+2015-09-27T10:37:38 CFY <cl9> [dns_vm_45b1e.create] Task started 'nova_plugin.server.create'
+2015-09-27T10:37:38 CFY <cl9> [homer_vm_a4f89.create] Sending task 'nova_plugin.server.create'
+2015-09-27T10:37:38 LOG <cl9> [ralf_vm_bae57.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl9_ralf_vm_bae57', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-27T10:37:39 LOG <cl9> [bono_vm_504b4.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl9_bono_vm_504b4', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-27T10:37:39 LOG <cl9> [ellis_vm_5cab7.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl9_ellis_vm_5cab7', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-27T10:37:39 LOG <cl9> [homestead_vm_65ab1.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl9_homestead_vm_65ab1', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-27T10:37:39 LOG <cl9> [dns_vm_45b1e.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl9_dns_vm_45b1e', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-27T10:37:40 CFY <cl9> [bono_vm_504b4.create] Task succeeded 'nova_plugin.server.create'
+2015-09-27T10:37:40 CFY <cl9> [sprout_vm_00fcb.create] Task started 'nova_plugin.server.create'
+2015-09-27T10:37:40 CFY <cl9> [ralf_vm_bae57.create] Task succeeded 'nova_plugin.server.create'
+2015-09-27T10:37:40 CFY <cl9> [homer_vm_a4f89.create] Task started 'nova_plugin.server.create'
+2015-09-27T10:37:40 CFY <cl9> [homestead_vm_65ab1.create] Task succeeded 'nova_plugin.server.create'
+2015-09-27T10:37:40 CFY <cl9> [dns_vm_45b1e.create] Task succeeded 'nova_plugin.server.create'
+2015-09-27T10:37:41 CFY <cl9> [ellis_vm_5cab7.create] Task succeeded 'nova_plugin.server.create'
+2015-09-27T10:37:41 CFY <cl9> [bono_vm_504b4] Configuring node
+2015-09-27T10:37:41 CFY <cl9> [ralf_vm_bae57] Configuring node
+2015-09-27T10:37:41 CFY <cl9> [dns_vm_45b1e] Configuring node
+2015-09-27T10:37:41 LOG <cl9> [sprout_vm_00fcb.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl9_sprout_vm_00fcb', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-27T10:37:41 CFY <cl9> [homestead_vm_65ab1] Configuring node
+2015-09-27T10:37:41 LOG <cl9> [homer_vm_a4f89.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl9_homer_vm_a4f89', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'7f83e36a-86ef-42ae-bdeb-d073aaaf1255'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-27T10:37:41 CFY <cl9> [ellis_vm_5cab7] Configuring node
+2015-09-27T10:37:41 CFY <cl9> [bono_vm_504b4] Starting node
+2015-09-27T10:37:41 CFY <cl9> [bono_vm_504b4.start] Sending task 'nova_plugin.server.start'
+2015-09-27T10:37:41 CFY <cl9> [ralf_vm_bae57] Starting node
+2015-09-27T10:37:41 CFY <cl9> [bono_vm_504b4.start] Task started 'nova_plugin.server.start'
+2015-09-27T10:37:41 CFY <cl9> [dns_vm_45b1e] Starting node
+2015-09-27T10:37:41 CFY <cl9> [homestead_vm_65ab1] Starting node
+2015-09-27T10:37:41 CFY <cl9> [ralf_vm_bae57.start] Sending task 'nova_plugin.server.start'
+2015-09-27T10:37:41 CFY <cl9> [dns_vm_45b1e.start] Sending task 'nova_plugin.server.start'
+2015-09-27T10:37:42 CFY <cl9> [ralf_vm_bae57.start] Task started 'nova_plugin.server.start'
+2015-09-27T10:37:42 CFY <cl9> [homestead_vm_65ab1.start] Sending task 'nova_plugin.server.start'
+2015-09-27T10:37:42 CFY <cl9> [dns_vm_45b1e.start] Task started 'nova_plugin.server.start'
+2015-09-27T10:37:42 CFY <cl9> [ellis_vm_5cab7] Starting node
+2015-09-27T10:37:42 CFY <cl9> [ellis_vm_5cab7.start] Sending task 'nova_plugin.server.start'
+2015-09-27T10:37:42 CFY <cl9> [sprout_vm_00fcb.create] Task succeeded 'nova_plugin.server.create'
+2015-09-27T10:37:42 CFY <cl9> [homestead_vm_65ab1.start] Task started 'nova_plugin.server.start'
+2015-09-27T10:37:42 CFY <cl9> [bono_vm_504b4.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:scheduling state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-27T10:37:42 CFY <cl9> [ellis_vm_5cab7.start] Task started 'nova_plugin.server.start'
+2015-09-27T10:37:42 CFY <cl9> [homer_vm_a4f89.create] Task succeeded 'nova_plugin.server.create'
+2015-09-27T10:37:42 CFY <cl9> [ralf_vm_bae57.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:scheduling state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-27T10:37:42 CFY <cl9> [sprout_vm_00fcb] Configuring node
+2015-09-27T10:37:42 CFY <cl9> [dns_vm_45b1e.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:scheduling state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-27T10:37:42 CFY <cl9> [homer_vm_a4f89] Configuring node
+2015-09-27T10:37:42 CFY <cl9> [ellis_vm_5cab7.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:scheduling state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-27T10:37:42 CFY <cl9> [homestead_vm_65ab1.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:scheduling state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-27T10:37:43 CFY <cl9> [sprout_vm_00fcb] Starting node
+2015-09-27T10:37:43 CFY <cl9> [sprout_vm_00fcb.start] Sending task 'nova_plugin.server.start'
+2015-09-27T10:37:43 CFY <cl9> [sprout_vm_00fcb.start] Task started 'nova_plugin.server.start'
+2015-09-27T10:37:43 CFY <cl9> [homer_vm_a4f89] Starting node
+2015-09-27T10:37:43 CFY <cl9> [homer_vm_a4f89.start] Sending task 'nova_plugin.server.start'
+2015-09-27T10:37:43 CFY <cl9> [homer_vm_a4f89.start] Task started 'nova_plugin.server.start'
+2015-09-27T10:37:43 CFY <cl9> [sprout_vm_00fcb.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:scheduling state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-27T10:37:43 CFY <cl9> [homer_vm_a4f89.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:scheduling state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-27T10:38:12 CFY <cl9> [bono_vm_504b4.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:12 CFY <cl9> [bono_vm_504b4.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:12 CFY <cl9> [ralf_vm_bae57.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:12 CFY <cl9> [ralf_vm_bae57.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:12 CFY <cl9> [dns_vm_45b1e.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:12 CFY <cl9> [dns_vm_45b1e.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:13 CFY <cl9> [ellis_vm_5cab7.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:13 CFY <cl9> [ellis_vm_5cab7.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:13 CFY <cl9> [homestead_vm_65ab1.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:13 CFY <cl9> [homestead_vm_65ab1.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:13 LOG <cl9> [bono_vm_504b4.start] INFO: Server is ACTIVE
+2015-09-27T10:38:13 CFY <cl9> [bono_vm_504b4.start] Task succeeded 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:13 LOG <cl9> [ralf_vm_bae57.start] INFO: Server is ACTIVE
+2015-09-27T10:38:13 CFY <cl9> [ralf_vm_bae57.start] Task succeeded 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:13 CFY <cl9> [bono_vm_504b4] Installing worker
+2015-09-27T10:38:13 LOG <cl9> [dns_vm_45b1e.start] INFO: Server is ACTIVE
+2015-09-27T10:38:13 CFY <cl9> [bono_vm_504b4.install] Sending task 'worker_installer.tasks.install'
+2015-09-27T10:38:13 CFY <cl9> [bono_vm_504b4.install] Task started 'worker_installer.tasks.install'
+2015-09-27T10:38:13 CFY <cl9> [ralf_vm_bae57] Installing worker
+2015-09-27T10:38:13 CFY <cl9> [sprout_vm_00fcb.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:13 CFY <cl9> [ralf_vm_bae57.install] Sending task 'worker_installer.tasks.install'
+2015-09-27T10:38:13 CFY <cl9> [sprout_vm_00fcb.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:14 LOG <cl9> [ellis_vm_5cab7.start] INFO: Server is ACTIVE
+2015-09-27T10:38:14 CFY <cl9> [dns_vm_45b1e.start] Task succeeded 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:14 CFY <cl9> [homer_vm_a4f89.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:14 CFY <cl9> [ralf_vm_bae57.install] Task started 'worker_installer.tasks.install'
+2015-09-27T10:38:14 CFY <cl9> [homestead_vm_65ab1.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:spawning state. Retrying... [retry_after=30]',) [attempt 2]
+2015-09-27T10:38:14 CFY <cl9> [homer_vm_a4f89.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:14 CFY <cl9> [dns_vm_45b1e] Installing worker
+2015-09-27T10:38:14 CFY <cl9> [dns_vm_45b1e.install] Sending task 'worker_installer.tasks.install'
+2015-09-27T10:38:14 CFY <cl9> [ellis_vm_5cab7.start] Task succeeded 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:14 CFY <cl9> [dns_vm_45b1e.install] Task started 'worker_installer.tasks.install'
+2015-09-27T10:38:14 LOG <cl9> [sprout_vm_00fcb.start] INFO: Server is ACTIVE
+2015-09-27T10:38:14 CFY <cl9> [sprout_vm_00fcb.start] Task succeeded 'nova_plugin.server.start' [attempt 2]
+2015-09-27T10:38:14 CFY <cl9> [ellis_vm_5cab7] Installing worker
+2015-09-27T10:38:14 CFY <cl9> [ellis_vm_5cab7.install] Sending task 'worker_installer.tasks.install'
+2015-09-27T10:38:14 CFY <cl9> [ellis_vm_5cab7.install] Task started 'worker_installer.tasks.install'
+2015-09-27T10:38:14 CFY <cl9> [sprout_vm_00fcb] Installing worker
+2015-09-27T10:38:14 CFY <cl9> [sprout_vm_00fcb.install] Sending task 'worker_installer.tasks.install'
+2015-09-27T10:38:14 CFY <cl9> [homer_vm_a4f89.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:spawning state. Retrying... [retry_after=30]',) [attempt 2]
+2015-09-27T10:38:14 CFY <cl9> [sprout_vm_00fcb.install] Task started 'worker_installer.tasks.install'
+2015-09-27T10:38:23 LOG <cl9> [bono_vm_504b4.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Timed out trying to connect to 10.67.79.21 (tried 1 time)
+2015-09-27T10:38:23 CFY <cl9> [bono_vm_504b4.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Timed out trying to connect to 10.67.79.21 (tried 1 time)',) [attempt 1]
+2015-09-27T10:38:24 LOG <cl9> [ralf_vm_bae57.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Timed out trying to connect to 10.67.79.18 (tried 1 time)
+2015-09-27T10:38:24 CFY <cl9> [ralf_vm_bae57.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Timed out trying to connect to 10.67.79.18 (tried 1 time)',) [attempt 1]
+2015-09-27T10:38:24 LOG <cl9> [dns_vm_45b1e.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Timed out trying to connect to 10.67.79.22 (tried 1 time)
+2015-09-27T10:38:24 CFY <cl9> [dns_vm_45b1e.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Timed out trying to connect to 10.67.79.22 (tried 1 time)',) [attempt 1]
+2015-09-27T10:38:24 LOG <cl9> [ellis_vm_5cab7.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Timed out trying to connect to 10.67.79.19 (tried 1 time)
+2015-09-27T10:38:24 CFY <cl9> [ellis_vm_5cab7.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Timed out trying to connect to 10.67.79.19 (tried 1 time)',) [attempt 1]
+2015-09-27T10:38:25 LOG <cl9> [sprout_vm_00fcb.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Timed out trying to connect to 10.67.79.20 (tried 1 time)
+2015-09-27T10:38:25 CFY <cl9> [sprout_vm_00fcb.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Timed out trying to connect to 10.67.79.20 (tried 1 time)',) [attempt 1]
+2015-09-27T10:38:44 CFY <cl9> [homestead_vm_65ab1.start] Sending task 'nova_plugin.server.start' [attempt 3]
+2015-09-27T10:38:44 CFY <cl9> [homestead_vm_65ab1.start] Task started 'nova_plugin.server.start' [attempt 3]
+2015-09-27T10:38:44 LOG <cl9> [homestead_vm_65ab1.start] INFO: Server is ACTIVE
+2015-09-27T10:38:44 CFY <cl9> [homestead_vm_65ab1.start] Task succeeded 'nova_plugin.server.start' [attempt 3]
+2015-09-27T10:38:45 CFY <cl9> [homer_vm_a4f89.start] Sending task 'nova_plugin.server.start' [attempt 3]
+2015-09-27T10:38:45 CFY <cl9> [homer_vm_a4f89.start] Task started 'nova_plugin.server.start' [attempt 3]
+2015-09-27T10:38:45 CFY <cl9> [homestead_vm_65ab1] Installing worker
+2015-09-27T10:38:45 CFY <cl9> [homestead_vm_65ab1.install] Sending task 'worker_installer.tasks.install'
+2015-09-27T10:38:45 CFY <cl9> [homestead_vm_65ab1.install] Task started 'worker_installer.tasks.install'
+2015-09-27T10:38:45 LOG <cl9> [homer_vm_a4f89.start] INFO: Server is ACTIVE
+2015-09-27T10:38:45 CFY <cl9> [homer_vm_a4f89.start] Task succeeded 'nova_plugin.server.start' [attempt 3]
+2015-09-27T10:38:46 CFY <cl9> [homer_vm_a4f89] Installing worker
+2015-09-27T10:38:46 CFY <cl9> [homer_vm_a4f89.install] Sending task 'worker_installer.tasks.install'
+2015-09-27T10:38:46 CFY <cl9> [homer_vm_a4f89.install] Task started 'worker_installer.tasks.install'
+2015-09-27T10:38:47 LOG <cl9> [homer_vm_a4f89.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Low level socket error connecting to host 10.67.79.23 on port 22: Connection refused (tried 1 time)
+2015-09-27T10:38:47 CFY <cl9> [homer_vm_a4f89.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Low level socket error connecting to host 10.67.79.23 on port 22: Connection refused (tried 1 time)',) [attempt 1]
+2015-09-27T10:38:48 LOG <cl9> [homestead_vm_65ab1.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl9/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Low level socket error connecting to host 10.67.79.24 on port 22: Connection refused (tried 1 time)
+2015-09-27T10:38:48 CFY <cl9> [homestead_vm_65ab1.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Low level socket error connecting to host 10.67.79.24 on port 22: Connection refused (tried 1 time)',) [attempt 1]
+2015-09-27T10:38:54 CFY <cl9> [bono_vm_504b4.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:38:54 CFY <cl9> [bono_vm_504b4.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:38:54 CFY <cl9> [ralf_vm_bae57.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:38:54 CFY <cl9> [ralf_vm_bae57.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:38:54 CFY <cl9> [dns_vm_45b1e.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:38:54 CFY <cl9> [dns_vm_45b1e.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:38:55 CFY <cl9> [ellis_vm_5cab7.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:38:55 CFY <cl9> [ellis_vm_5cab7.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:38:55 CFY <cl9> [sprout_vm_00fcb.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:38:55 CFY <cl9> [sprout_vm_00fcb.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:02 LOG <cl9> [bono_vm_504b4.install] INFO: Installing cloudify agent bono_vm_504b4. Connection details --> {'host': u'10.67.79.21', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:05 LOG <cl9> [ralf_vm_bae57.install] INFO: Installing cloudify agent ralf_vm_bae57. Connection details --> {'host': u'10.67.79.18', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:05 LOG <cl9> [dns_vm_45b1e.install] INFO: Installing cloudify agent dns_vm_45b1e. Connection details --> {'host': u'10.67.79.22', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:06 LOG <cl9> [ellis_vm_5cab7.install] INFO: Installing cloudify agent ellis_vm_5cab7. Connection details --> {'host': u'10.67.79.19', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:07 CFY <cl9> [bono_vm_504b4.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:07 CFY <cl9> [bono_vm_504b4.start] Sending task 'worker_installer.tasks.start'
+2015-09-27T10:39:07 CFY <cl9> [bono_vm_504b4.start] Task started 'worker_installer.tasks.start'
+2015-09-27T10:39:08 LOG <cl9> [sprout_vm_00fcb.install] INFO: Installing cloudify agent sprout_vm_00fcb. Connection details --> {'host': u'10.67.79.20', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:11 CFY <cl9> [ralf_vm_bae57.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:11 CFY <cl9> [ralf_vm_bae57.start] Sending task 'worker_installer.tasks.start'
+2015-09-27T10:39:11 LOG <cl9> [bono_vm_504b4.start] INFO: Starting cloudify agent bono_vm_504b4. Connection details --> {'host': u'10.67.79.21', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:11 CFY <cl9> [ralf_vm_bae57.start] Task started 'worker_installer.tasks.start'
+2015-09-27T10:39:14 CFY <cl9> [dns_vm_45b1e.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:14 CFY <cl9> [dns_vm_45b1e.start] Sending task 'worker_installer.tasks.start'
+2015-09-27T10:39:14 CFY <cl9> [dns_vm_45b1e.start] Task started 'worker_installer.tasks.start'
+2015-09-27T10:39:14 CFY <cl9> [ellis_vm_5cab7.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:14 CFY <cl9> [ellis_vm_5cab7.start] Sending task 'worker_installer.tasks.start'
+2015-09-27T10:39:15 CFY <cl9> [ellis_vm_5cab7.start] Task started 'worker_installer.tasks.start'
+2015-09-27T10:39:15 LOG <cl9> [ralf_vm_bae57.start] INFO: Starting cloudify agent ralf_vm_bae57. Connection details --> {'host': u'10.67.79.18', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:17 CFY <cl9> [sprout_vm_00fcb.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:17 CFY <cl9> [sprout_vm_00fcb.start] Sending task 'worker_installer.tasks.start'
+2015-09-27T10:39:17 CFY <cl9> [sprout_vm_00fcb.start] Task started 'worker_installer.tasks.start'
+2015-09-27T10:39:17 CFY <cl9> [homer_vm_a4f89.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:17 CFY <cl9> [bono_vm_504b4.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-27T10:39:17 CFY <cl9> [homer_vm_a4f89.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:17 CFY <cl9> [bono_vm_504b4] Installing host plugins
+2015-09-27T10:39:17 CFY <cl9> [bono_vm_504b4.install] Sending task 'plugin_installer.tasks.install'
+2015-09-27T10:39:17 CFY <cl9> [bono_vm_504b4.install] Task started 'plugin_installer.tasks.install'
+2015-09-27T10:39:18 LOG <cl9> [dns_vm_45b1e.start] INFO: Starting cloudify agent dns_vm_45b1e. Connection details --> {'host': u'10.67.79.22', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:18 CFY <cl9> [homestead_vm_65ab1.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:18 LOG <cl9> [ellis_vm_5cab7.start] INFO: Starting cloudify agent ellis_vm_5cab7. Connection details --> {'host': u'10.67.79.19', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:20 LOG <cl9> [sprout_vm_00fcb.start] INFO: Starting cloudify agent sprout_vm_00fcb. Connection details --> {'host': u'10.67.79.20', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:21 LOG <cl9> [bono_vm_504b4.install] INFO: Installing dns-plugin
+2015-09-27T10:39:21 CFY <cl9> [bono_vm_504b4.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-27T10:39:21 CFY <cl9> [ralf_vm_bae57.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-27T10:39:21 CFY <cl9> [homestead_vm_65ab1.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:22 CFY <cl9> [ralf_vm_bae57] Installing host plugins
+2015-09-27T10:39:22 CFY <cl9> [ralf_vm_bae57.install] Sending task 'plugin_installer.tasks.install'
+2015-09-27T10:39:22 CFY <cl9> [ralf_vm_bae57.install] Task started 'plugin_installer.tasks.install'
+2015-09-27T10:39:23 LOG <cl9> [bono_vm_504b4.install] INFO: Installing diamond
+2015-09-27T10:39:24 CFY <cl9> [dns_vm_45b1e.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-27T10:39:24 CFY <cl9> [ralf_vm_bae57.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-27T10:39:24 CFY <cl9> [dns_app_3d5ea] Creating node
+2015-09-27T10:39:24 CFY <cl9> [dns_app_3d5ea.create] Sending task 'script_runner.tasks.run'
+2015-09-27T10:39:25 CFY <cl9> [dns_app_3d5ea.create] Task started 'script_runner.tasks.run'
+2015-09-27T10:39:25 CFY <cl9> [ellis_vm_5cab7.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-27T10:39:25 CFY <cl9> [ellis_vm_5cab7] Installing host plugins
+2015-09-27T10:39:25 CFY <cl9> [ellis_vm_5cab7.install] Sending task 'plugin_installer.tasks.install'
+2015-09-27T10:39:25 CFY <cl9> [ellis_vm_5cab7.install] Task started 'plugin_installer.tasks.install'
+2015-09-27T10:39:25 LOG <cl9> [ralf_vm_bae57.install] INFO: Installing dns-plugin
+2015-09-27T10:39:27 CFY <cl9> [sprout_vm_00fcb.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-27T10:39:27 LOG <cl9> [bono_vm_504b4.restart] INFO: Restarting cloudify agent bono_vm_504b4. Connection details --> {'host': u'10.67.79.21', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:27 CFY <cl9> [sprout_vm_00fcb] Installing host plugins
+2015-09-27T10:39:27 CFY <cl9> [sprout_vm_00fcb.install] Sending task 'plugin_installer.tasks.install'
+2015-09-27T10:39:27 CFY <cl9> [sprout_vm_00fcb.install] Task started 'plugin_installer.tasks.install'
+2015-09-27T10:39:27 LOG <cl9> [ralf_vm_bae57.restart] INFO: Restarting cloudify agent ralf_vm_bae57. Connection details --> {'host': u'10.67.79.18', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:27 CFY <cl9> [ellis_vm_5cab7.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-27T10:39:28 LOG <cl9> [homer_vm_a4f89.install] INFO: Installing cloudify agent homer_vm_a4f89. Connection details --> {'host': u'10.67.79.23', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:28 LOG <cl9> [dns_app_3d5ea.create] INFO: Downloaded scripts/dns.sh to /tmp/9C5W8/dns.sh
+2015-09-27T10:39:28 LOG <cl9> [dns_app_3d5ea.create] INFO: Executing: /usr/bin/sudo /tmp/9C5W8/dns.sh
+2015-09-27T10:39:29 LOG <cl9> [ellis_vm_5cab7.install] INFO: Installing dns-plugin
+2015-09-27T10:39:30 LOG <cl9> [ellis_vm_5cab7.restart] INFO: Restarting cloudify agent ellis_vm_5cab7. Connection details --> {'host': u'10.67.79.19', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:31 LOG <cl9> [sprout_vm_00fcb.install] INFO: Installing dns-plugin
+2015-09-27T10:39:31 LOG <cl9> [homestead_vm_65ab1.install] INFO: Installing cloudify agent homestead_vm_65ab1. Connection details --> {'host': u'10.67.79.24', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:32 CFY <cl9> [sprout_vm_00fcb.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-27T10:39:34 LOG <cl9> [sprout_vm_00fcb.install] INFO: Installing diamond
+2015-09-27T10:39:34 CFY <cl9> [homer_vm_a4f89.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:34 CFY <cl9> [homer_vm_a4f89.start] Sending task 'worker_installer.tasks.start'
+2015-09-27T10:39:35 CFY <cl9> [homer_vm_a4f89.start] Task started 'worker_installer.tasks.start'
+2015-09-27T10:39:35 CFY <cl9> [bono_vm_504b4.install] Sending task 'diamond_agent.tasks.install'
+2015-09-27T10:39:35 CFY <cl9> [bono_vm_504b4.install] Task started 'diamond_agent.tasks.install'
+2015-09-27T10:39:35 CFY <cl9> [bono_vm_504b4.install] Task succeeded 'diamond_agent.tasks.install'
+2015-09-27T10:39:35 CFY <cl9> [bono_vm_504b4.start] Sending task 'diamond_agent.tasks.start'
+2015-09-27T10:39:35 CFY <cl9> [bono_vm_504b4.start] Task started 'diamond_agent.tasks.start'
+2015-09-27T10:39:36 CFY <cl9> [bono_vm_504b4.start] Task succeeded 'diamond_agent.tasks.start'
+2015-09-27T10:39:36 CFY <cl9> [bono_vm_504b4->bono_ip_182fb|establish] Sending task 'nova_plugin.server.connect_floatingip'
+2015-09-27T10:39:36 CFY <cl9> [bono_vm_504b4.start] Sending task 'diamond_agent.tasks.add_collectors'
+2015-09-27T10:39:36 CFY <cl9> [bono_vm_504b4.start] Task started 'diamond_agent.tasks.add_collectors'
+2015-09-27T10:39:36 CFY <cl9> [bono_vm_504b4->bono_ip_182fb|establish] Task started 'nova_plugin.server.connect_floatingip'
+2015-09-27T10:39:37 CFY <cl9> [homestead_vm_65ab1.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-27T10:39:37 CFY <cl9> [homestead_vm_65ab1.start] Sending task 'worker_installer.tasks.start'
+2015-09-27T10:39:37 CFY <cl9> [homestead_vm_65ab1.start] Task started 'worker_installer.tasks.start'
+2015-09-27T10:39:38 LOG <cl9> [sprout_vm_00fcb.restart] INFO: Restarting cloudify agent sprout_vm_00fcb. Connection details --> {'host': u'10.67.79.20', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:38 CFY <cl9> [bono_vm_504b4->bono_ip_182fb|establish] Task succeeded 'nova_plugin.server.connect_floatingip'
+2015-09-27T10:39:38 CFY <cl9> [ellis_vm_5cab7->ellis_ip_d40a5|establish] Sending task 'nova_plugin.server.connect_floatingip'
+2015-09-27T10:39:38 CFY <cl9> [ellis_vm_5cab7->ellis_ip_d40a5|establish] Task started 'nova_plugin.server.connect_floatingip'
+2015-09-27T10:39:38 LOG <cl9> [homer_vm_a4f89.start] INFO: Starting cloudify agent homer_vm_a4f89. Connection details --> {'host': u'10.67.79.23', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:40 CFY <cl9> [ellis_vm_5cab7->ellis_ip_d40a5|establish] Task succeeded 'nova_plugin.server.connect_floatingip'
+2015-09-27T10:39:40 LOG <cl9> [homestead_vm_65ab1.start] INFO: Starting cloudify agent homestead_vm_65ab1. Connection details --> {'host': u'10.67.79.24', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:42 CFY <cl9> [bono_vm_504b4.start] Task succeeded 'diamond_agent.tasks.add_collectors'
+2015-09-27T10:39:44 CFY <cl9> [dns_app_3d5ea.create] Task succeeded 'script_runner.tasks.run'
+2015-09-27T10:39:44 CFY <cl9> [dns_app_3d5ea] Configuring node
+2015-09-27T10:39:44 CFY <cl9> [dns_app_3d5ea] Starting node
+2015-09-27T10:39:45 CFY <cl9> [homer_vm_a4f89.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-27T10:39:45 CFY <cl9> [homer_vm_a4f89] Installing host plugins
+2015-09-27T10:39:45 CFY <cl9> [homer_vm_a4f89.install] Sending task 'plugin_installer.tasks.install'
+2015-09-27T10:39:45 CFY <cl9> [homer_vm_a4f89.install] Task started 'plugin_installer.tasks.install'
+2015-09-27T10:39:45 CFY <cl9> [ellis_app_3c428] Creating node
+2015-09-27T10:39:45 CFY <cl9> [ellis_app_3c428.create] Sending task 'script_runner.tasks.run'
+2015-09-27T10:39:45 CFY <cl9> [ralf_app_eebbc] Creating node
+2015-09-27T10:39:45 CFY <cl9> [bono_app_8d55b] Creating node
+2015-09-27T10:39:45 CFY <cl9> [ellis_app_3c428.create] Task started 'script_runner.tasks.run'
+2015-09-27T10:39:45 CFY <cl9> [ralf_app_eebbc.create] Sending task 'script_runner.tasks.run'
+2015-09-27T10:39:45 CFY <cl9> [ralf_app_eebbc.create] Task started 'script_runner.tasks.run'
+2015-09-27T10:39:45 CFY <cl9> [bono_app_8d55b->dns_app_3d5ea|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:39:45 CFY <cl9> [bono_app_8d55b->dns_app_3d5ea|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:39:46 CFY <cl9> [sprout_vm_00fcb.install] Sending task 'diamond_agent.tasks.install'
+2015-09-27T10:39:46 CFY <cl9> [sprout_vm_00fcb.install] Task started 'diamond_agent.tasks.install'
+2015-09-27T10:39:46 CFY <cl9> [bono_app_8d55b->dns_app_3d5ea|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:39:46 CFY <cl9> [sprout_vm_00fcb.install] Task succeeded 'diamond_agent.tasks.install'
+2015-09-27T10:39:46 CFY <cl9> [bono_app_8d55b] Configuring node
+2015-09-27T10:39:46 CFY <cl9> [sprout_vm_00fcb.start] Sending task 'diamond_agent.tasks.start'
+2015-09-27T10:39:46 CFY <cl9> [sprout_vm_00fcb.start] Task started 'diamond_agent.tasks.start'
+2015-09-27T10:39:46 CFY <cl9> [sprout_vm_00fcb.start] Task succeeded 'diamond_agent.tasks.start'
+2015-09-27T10:39:46 CFY <cl9> [sprout_vm_00fcb.start] Sending task 'diamond_agent.tasks.add_collectors'
+2015-09-27T10:39:46 CFY <cl9> [sprout_vm_00fcb.start] Task started 'diamond_agent.tasks.add_collectors'
+2015-09-27T10:39:46 CFY <cl9> [bono_app_8d55b] Starting node
+2015-09-27T10:39:46 CFY <cl9> [homestead_vm_65ab1.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-27T10:39:46 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run'
+2015-09-27T10:39:46 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run'
+2015-09-27T10:39:46 CFY <cl9> [homestead_vm_65ab1] Installing host plugins
+2015-09-27T10:39:46 CFY <cl9> [homestead_vm_65ab1.install] Sending task 'plugin_installer.tasks.install'
+2015-09-27T10:39:46 CFY <cl9> [homestead_vm_65ab1.install] Task started 'plugin_installer.tasks.install'
+2015-09-27T10:39:47 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 1]
+2015-09-27T10:39:47 LOG <cl9> [dns_app_3d5ea.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/9C5W8/dns.sh
+2015-09-27T10:39:48 CFY <cl9> [homer_vm_a4f89.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-27T10:39:48 CFY <cl9> [sprout_vm_00fcb.start] Task succeeded 'diamond_agent.tasks.add_collectors'
+2015-09-27T10:39:49 CFY <cl9> [policy_node_98716] Creating node
+2015-09-27T10:39:49 CFY <cl9> [sprout_app_cc84d] Creating node
+2015-09-27T10:39:49 CFY <cl9> [sprout_app_cc84d.create] Sending task 'script_runner.tasks.run'
+2015-09-27T10:39:49 LOG <cl9> [homer_vm_a4f89.install] INFO: Installing dns-plugin
+2015-09-27T10:39:49 CFY <cl9> [homestead_vm_65ab1.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-27T10:39:49 LOG <cl9> [ellis_app_3c428.create] INFO: Downloaded scripts/ellis.sh to /tmp/FHMHJ/ellis.sh
+2015-09-27T10:39:49 CFY <cl9> [sprout_app_cc84d.create] Task started 'script_runner.tasks.run'
+2015-09-27T10:39:49 CFY <cl9> [policy_node_98716] Configuring node
+2015-09-27T10:39:49 LOG <cl9> [ralf_app_eebbc.create] INFO: Downloaded scripts/ralf.sh to /tmp/VC6KS/ralf.sh
+2015-09-27T10:39:49 LOG <cl9> [ellis_app_3c428.create] INFO: Executing: /usr/bin/sudo /tmp/FHMHJ/ellis.sh
+2015-09-27T10:39:49 LOG <cl9> [ralf_app_eebbc.create] INFO: Executing: /usr/bin/sudo /tmp/VC6KS/ralf.sh
+2015-09-27T10:39:49 LOG <cl9> [bono_app_8d55b->dns_app_3d5ea|preconfigure] INFO: DNS SETUP 10.67.79.22
+2015-09-27T10:39:49 LOG <cl9> [bono_app_8d55b->dns_app_3d5ea|preconfigure] INFO: DNS SETUP nameserver 10.67.79.22
+2015-09-27T10:39:50 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/CXRJ4/bono.sh
+2015-09-27T10:39:50 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/CXRJ4/bono.sh
+2015-09-27T10:39:50 LOG <cl9> [homestead_vm_65ab1.install] INFO: Installing dns-plugin
+2015-09-27T10:39:50 CFY <cl9> [policy_node_98716] Starting node
+2015-09-27T10:39:50 CFY <cl9> [policy_node_98716.start] Sending task 'script_runner.tasks.run'
+2015-09-27T10:39:50 CFY <cl9> [policy_node_98716.start] Task started 'script_runner.tasks.run'
+2015-09-27T10:39:50 LOG <cl9> [policy_node_98716.start] INFO: Downloaded scripts/policy-start.sh to /tmp/6E3DV/policy-start.sh
+2015-09-27T10:39:50 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:39:50 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/CXRJ4/bono.sh
+2015-09-27T10:39:50 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:39:51 LOG <cl9> [policy_node_98716.start] INFO: Executing: /tmp/6E3DV/policy-start.sh
+2015-09-27T10:39:51 LOG <cl9> [policy_node_98716.start] INFO: Execution done (return_code=0): /tmp/6E3DV/policy-start.sh
+2015-09-27T10:39:51 LOG <cl9> [homer_vm_a4f89.restart] INFO: Restarting cloudify agent homer_vm_a4f89. Connection details --> {'host': u'10.67.79.23', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:51 CFY <cl9> [policy_node_98716.start] Task succeeded 'script_runner.tasks.run'
+2015-09-27T10:39:52 LOG <cl9> [homestead_vm_65ab1.restart] INFO: Restarting cloudify agent homestead_vm_65ab1. Connection details --> {'host': u'10.67.79.24', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-27T10:39:53 LOG <cl9> [sprout_app_cc84d.create] INFO: Downloaded scripts/sprout.sh to /tmp/080ER/sprout.sh
+2015-09-27T10:39:53 LOG <cl9> [sprout_app_cc84d.create] INFO: Executing: /usr/bin/sudo /tmp/080ER/sprout.sh
+2015-09-27T10:39:59 CFY <cl9> [homer_app_9579e] Creating node
+2015-09-27T10:39:59 CFY <cl9> [homer_app_9579e.create] Sending task 'script_runner.tasks.run'
+2015-09-27T10:39:59 CFY <cl9> [homer_app_9579e.create] Task started 'script_runner.tasks.run'
+2015-09-27T10:40:01 CFY <cl9> [homestead_app_4182d] Creating node
+2015-09-27T10:40:01 CFY <cl9> [homestead_app_4182d.create] Sending task 'script_runner.tasks.run'
+2015-09-27T10:40:01 CFY <cl9> [homestead_app_4182d.create] Task started 'script_runner.tasks.run'
+2015-09-27T10:40:03 LOG <cl9> [homer_app_9579e.create] INFO: Downloaded scripts/homer.sh to /tmp/19TCK/homer.sh
+2015-09-27T10:40:03 LOG <cl9> [homer_app_9579e.create] INFO: Executing: /usr/bin/sudo /tmp/19TCK/homer.sh
+2015-09-27T10:40:05 LOG <cl9> [homestead_app_4182d.create] INFO: Downloaded scripts/homestead.sh to /tmp/CE30D/homestead.sh
+2015-09-27T10:40:05 LOG <cl9> [homestead_app_4182d.create] INFO: Executing: /usr/bin/sudo /tmp/CE30D/homestead.sh
+2015-09-27T10:40:17 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 2]
+2015-09-27T10:40:17 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 2]
+2015-09-27T10:40:17 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 2]
+2015-09-27T10:40:21 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/I9PJR/bono.sh
+2015-09-27T10:40:21 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/I9PJR/bono.sh
+2015-09-27T10:40:21 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:40:21 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:40:21 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/I9PJR/bono.sh
+2015-09-27T10:40:47 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 3]
+2015-09-27T10:40:47 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 3]
+2015-09-27T10:40:48 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 3]
+2015-09-27T10:40:51 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/0LRRR/bono.sh
+2015-09-27T10:40:51 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/0LRRR/bono.sh
+2015-09-27T10:40:51 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:40:52 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/0LRRR/bono.sh
+2015-09-27T10:40:52 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:41:18 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 4]
+2015-09-27T10:41:18 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 4]
+2015-09-27T10:41:18 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 4]
+2015-09-27T10:41:22 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/OKYF9/bono.sh
+2015-09-27T10:41:22 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/OKYF9/bono.sh
+2015-09-27T10:41:22 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:41:22 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/OKYF9/bono.sh
+2015-09-27T10:41:22 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:41:48 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 5]
+2015-09-27T10:41:49 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 5]
+2015-09-27T10:41:49 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 5]
+2015-09-27T10:41:52 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/T3SM4/bono.sh
+2015-09-27T10:41:52 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/T3SM4/bono.sh
+2015-09-27T10:41:53 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:41:53 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/T3SM4/bono.sh
+2015-09-27T10:41:53 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:42:15 CFY <cl9> [sprout_app_cc84d.create] Task succeeded 'script_runner.tasks.run'
+2015-09-27T10:42:15 CFY <cl9> [sprout_app_cc84d->dns_app_3d5ea|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:42:15 CFY <cl9> [sprout_app_cc84d->dns_app_3d5ea|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:42:18 CFY <cl9> [sprout_app_cc84d->dns_app_3d5ea|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:42:18 CFY <cl9> [sprout_app_cc84d] Configuring node
+2015-09-27T10:42:18 CFY <cl9> [sprout_app_cc84d] Starting node
+2015-09-27T10:42:19 LOG <cl9> [sprout_app_cc84d.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/080ER/sprout.sh
+2015-09-27T10:42:19 LOG <cl9> [sprout_app_cc84d->dns_app_3d5ea|preconfigure] INFO: DNS SETUP 10.67.79.22
+2015-09-27T10:42:19 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 6]
+2015-09-27T10:42:19 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 6]
+2015-09-27T10:42:20 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 6]
+2015-09-27T10:42:21 LOG <cl9> [sprout_app_cc84d->dns_app_3d5ea|preconfigure] INFO: DNS SETUP nameserver 10.67.79.22
+2015-09-27T10:42:23 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/XK102/bono.sh
+2015-09-27T10:42:23 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/XK102/bono.sh
+2015-09-27T10:42:23 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:42:23 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/XK102/bono.sh
+2015-09-27T10:42:23 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:42:25 CFY <cl9> [ralf_app_eebbc.create] Task succeeded 'script_runner.tasks.run'
+2015-09-27T10:42:26 CFY <cl9> [ralf_app_eebbc->dns_app_3d5ea|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:42:26 CFY <cl9> [ellis_app_3c428.create] Task succeeded 'script_runner.tasks.run'
+2015-09-27T10:42:26 CFY <cl9> [ralf_app_eebbc->dns_app_3d5ea|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:42:26 CFY <cl9> [ellis_app_3c428->dns_app_3d5ea|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:42:26 CFY <cl9> [ellis_app_3c428->dns_app_3d5ea|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:42:28 CFY <cl9> [ellis_app_3c428->dns_app_3d5ea|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:42:28 CFY <cl9> [ralf_app_eebbc->dns_app_3d5ea|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:42:28 CFY <cl9> [ralf_app_eebbc] Configuring node
+2015-09-27T10:42:28 CFY <cl9> [ellis_app_3c428] Configuring node
+2015-09-27T10:42:28 CFY <cl9> [ralf_app_eebbc] Starting node
+2015-09-27T10:42:28 CFY <cl9> [ellis_app_3c428] Starting node
+2015-09-27T10:42:29 LOG <cl9> [ralf_app_eebbc.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/VC6KS/ralf.sh
+2015-09-27T10:42:29 LOG <cl9> [ellis_app_3c428.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/FHMHJ/ellis.sh
+2015-09-27T10:42:29 LOG <cl9> [ralf_app_eebbc->dns_app_3d5ea|preconfigure] INFO: DNS SETUP 10.67.79.22
+2015-09-27T10:42:30 LOG <cl9> [ellis_app_3c428->dns_app_3d5ea|preconfigure] INFO: DNS SETUP 10.67.79.22
+2015-09-27T10:42:32 LOG <cl9> [ralf_app_eebbc->dns_app_3d5ea|preconfigure] INFO: DNS SETUP nameserver 10.67.79.22
+2015-09-27T10:42:32 LOG <cl9> [ellis_app_3c428->dns_app_3d5ea|preconfigure] INFO: DNS SETUP nameserver 10.67.79.22
+2015-09-27T10:42:50 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 7]
+2015-09-27T10:42:50 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 7]
+2015-09-27T10:42:50 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 7]
+2015-09-27T10:42:54 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/KK607/bono.sh
+2015-09-27T10:42:54 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/KK607/bono.sh
+2015-09-27T10:42:54 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:42:54 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/KK607/bono.sh
+2015-09-27T10:42:54 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:43:20 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 8]
+2015-09-27T10:43:20 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 8]
+2015-09-27T10:43:21 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 8]
+2015-09-27T10:43:24 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/G0OPP/bono.sh
+2015-09-27T10:43:24 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/G0OPP/bono.sh
+2015-09-27T10:43:24 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:43:24 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:43:24 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/G0OPP/bono.sh
+2015-09-27T10:43:37 CFY <cl9> [homer_app_9579e.create] Task succeeded 'script_runner.tasks.run'
+2015-09-27T10:43:37 CFY <cl9> [homer_app_9579e->dns_app_3d5ea|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:43:37 CFY <cl9> [homer_app_9579e->dns_app_3d5ea|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:43:39 CFY <cl9> [homer_app_9579e->dns_app_3d5ea|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:43:39 CFY <cl9> [homer_app_9579e] Configuring node
+2015-09-27T10:43:40 CFY <cl9> [homer_app_9579e] Starting node
+2015-09-27T10:43:41 LOG <cl9> [homer_app_9579e.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/19TCK/homer.sh
+2015-09-27T10:43:41 LOG <cl9> [homer_app_9579e->dns_app_3d5ea|preconfigure] INFO: DNS SETUP 10.67.79.22
+2015-09-27T10:43:43 LOG <cl9> [homer_app_9579e->dns_app_3d5ea|preconfigure] INFO: DNS SETUP nameserver 10.67.79.22
+2015-09-27T10:43:51 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 9]
+2015-09-27T10:43:51 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 9]
+2015-09-27T10:43:51 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 9]
+2015-09-27T10:43:55 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/5SII2/bono.sh
+2015-09-27T10:43:55 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/5SII2/bono.sh
+2015-09-27T10:43:55 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:43:55 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/5SII2/bono.sh
+2015-09-27T10:43:55 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:44:06 CFY <cl9> [homestead_app_4182d.create] Task succeeded 'script_runner.tasks.run'
+2015-09-27T10:44:06 CFY <cl9> [homestead_app_4182d->dns_app_3d5ea|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:44:06 CFY <cl9> [homestead_app_4182d->dns_app_3d5ea|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:44:09 CFY <cl9> [homestead_app_4182d->dns_app_3d5ea|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-27T10:44:09 CFY <cl9> [homestead_app_4182d] Configuring node
+2015-09-27T10:44:09 CFY <cl9> [homestead_app_4182d] Starting node
+2015-09-27T10:44:10 LOG <cl9> [homestead_app_4182d.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/CE30D/homestead.sh
+2015-09-27T10:44:10 LOG <cl9> [homestead_app_4182d->dns_app_3d5ea|preconfigure] INFO: DNS SETUP 10.67.79.22
+2015-09-27T10:44:12 LOG <cl9> [homestead_app_4182d->dns_app_3d5ea|preconfigure] INFO: DNS SETUP nameserver 10.67.79.22
+2015-09-27T10:44:21 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 10]
+2015-09-27T10:44:21 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 10]
+2015-09-27T10:44:22 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 10]
+2015-09-27T10:44:25 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/W8W97/bono.sh
+2015-09-27T10:44:25 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/W8W97/bono.sh
+2015-09-27T10:44:25 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:44:25 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/W8W97/bono.sh
+2015-09-27T10:44:25 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:44:52 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 11]
+2015-09-27T10:44:52 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 11]
+2015-09-27T10:44:52 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 11]
+2015-09-27T10:44:56 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/HXJEA/bono.sh
+2015-09-27T10:44:56 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/HXJEA/bono.sh
+2015-09-27T10:44:56 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:44:56 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/HXJEA/bono.sh
+2015-09-27T10:44:56 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:45:22 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 12]
+2015-09-27T10:45:22 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 12]
+2015-09-27T10:45:23 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 12]
+2015-09-27T10:45:26 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/8OWWM/bono.sh
+2015-09-27T10:45:26 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/8OWWM/bono.sh
+2015-09-27T10:45:26 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:45:26 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/8OWWM/bono.sh
+2015-09-27T10:45:26 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:45:53 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 13]
+2015-09-27T10:45:53 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 13]
+2015-09-27T10:45:53 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 13]
+2015-09-27T10:45:57 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/26BI3/bono.sh
+2015-09-27T10:45:57 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/26BI3/bono.sh
+2015-09-27T10:45:57 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:45:57 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/26BI3/bono.sh
+2015-09-27T10:45:57 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:46:23 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 14]
+2015-09-27T10:46:23 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 14]
+2015-09-27T10:46:24 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 14]
+2015-09-27T10:46:27 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/NDF1N/bono.sh
+2015-09-27T10:46:27 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/NDF1N/bono.sh
+2015-09-27T10:46:27 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:46:27 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/NDF1N/bono.sh
+2015-09-27T10:46:27 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:46:54 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 15]
+2015-09-27T10:46:54 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 15]
+2015-09-27T10:46:54 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 15]
+2015-09-27T10:46:58 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/YX9R4/bono.sh
+2015-09-27T10:46:58 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/YX9R4/bono.sh
+2015-09-27T10:46:58 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:46:58 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/YX9R4/bono.sh
+2015-09-27T10:46:58 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:47:24 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 16]
+2015-09-27T10:47:24 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 16]
+2015-09-27T10:47:25 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 16]
+2015-09-27T10:47:28 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/1J1CX/bono.sh
+2015-09-27T10:47:28 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/1J1CX/bono.sh
+2015-09-27T10:47:28 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:47:28 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/1J1CX/bono.sh
+2015-09-27T10:47:28 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:47:55 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 17]
+2015-09-27T10:47:55 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 17]
+2015-09-27T10:47:55 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 17]
+2015-09-27T10:47:59 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/BOGEG/bono.sh
+2015-09-27T10:47:59 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/BOGEG/bono.sh
+2015-09-27T10:47:59 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:47:59 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/BOGEG/bono.sh
+2015-09-27T10:47:59 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:48:25 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 18]
+2015-09-27T10:48:25 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 18]
+2015-09-27T10:48:26 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 18]
+2015-09-27T10:48:29 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/E3RET/bono.sh
+2015-09-27T10:48:29 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/E3RET/bono.sh
+2015-09-27T10:48:29 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:48:29 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/E3RET/bono.sh
+2015-09-27T10:48:29 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:48:56 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 19]
+2015-09-27T10:48:56 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 19]
+2015-09-27T10:48:56 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 19]
+2015-09-27T10:49:00 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/04ASP/bono.sh
+2015-09-27T10:49:00 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/04ASP/bono.sh
+2015-09-27T10:49:00 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:49:00 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/04ASP/bono.sh
+2015-09-27T10:49:00 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:49:26 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 20]
+2015-09-27T10:49:26 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 20]
+2015-09-27T10:49:27 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 20]
+2015-09-27T10:49:30 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/SA5HV/bono.sh
+2015-09-27T10:49:30 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/SA5HV/bono.sh
+2015-09-27T10:49:30 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:49:30 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:49:30 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/SA5HV/bono.sh
+2015-09-27T10:49:57 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 21]
+2015-09-27T10:49:57 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 21]
+2015-09-27T10:49:57 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 21]
+2015-09-27T10:50:01 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/Y4291/bono.sh
+2015-09-27T10:50:01 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/Y4291/bono.sh
+2015-09-27T10:50:01 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:50:01 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/Y4291/bono.sh
+2015-09-27T10:50:01 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+2015-09-27T10:50:27 CFY <cl9> [bono_app_8d55b.start] Sending task 'script_runner.tasks.run' [attempt 22]
+2015-09-27T10:50:27 CFY <cl9> [bono_app_8d55b.start] Task started 'script_runner.tasks.run' [attempt 22]
+2015-09-27T10:50:28 CFY <cl9> [bono_app_8d55b.start] Task failed 'script_runner.tasks.run' -> RecoverableError('ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied\n',) [attempt 22]
+2015-09-27T10:50:31 LOG <cl9> [bono_app_8d55b.start] INFO: Downloaded scripts/bono.sh to /tmp/Y3EUQ/bono.sh
+2015-09-27T10:50:31 LOG <cl9> [bono_app_8d55b.start] INFO: Executing: /tmp/Y3EUQ/bono.sh
+2015-09-27T10:50:31 LOG <cl9> [bono_app_8d55b.start] INFO: In Bono 15.126.225.154   10.67.79.22   
+2015-09-27T10:50:31 LOG <cl9> [bono_app_8d55b.start] INFO: Execution done (return_code=1): /tmp/Y3EUQ/bono.sh
+2015-09-27T10:50:31 LOG <cl9> [bono_app_8d55b.start] ERROR: Exception raised on operation [script_runner.tasks.run] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 58, in run
+    return process_execution(script_func, script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 88, in process_execution
+    script_func(script_path, ctx, process)
+  File "/home/ubuntu/cloudify.bono_vm_504b4/env/local/lib/python2.7/site-packages/script_runner/tasks.py", line 157, in execute
+    stderr_consumer.buffer.getvalue())
+ProcessException: tee: /var/log/clearwater-cloudify.log: Permission denied
+
+
+Total events: 553

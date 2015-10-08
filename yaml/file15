@@ -1,0 +1,634 @@
+Getting events from management server 15.126.228.217 for execution id 'ec1929b4-8210-4932-b53d-59d15a7a45bc' [include_logs=True]
+2015-09-24T16:02:32 CFY <cl5> Starting 'install' workflow execution
+2015-09-24T16:02:34 CFY <cl5> [ellis_ip_ab786] Creating node
+2015-09-24T16:02:34 CFY <cl5> [bono_ip_74cdf] Creating node
+2015-09-24T16:02:34 CFY <cl5> [a_node_a863a] Creating node
+2015-09-24T16:02:34 CFY <cl5> [ellis_ip_ab786.create] Sending task 'neutron_plugin.floatingip.create'
+2015-09-24T16:02:34 CFY <cl5> [All_ports_open_4b446] Creating node
+2015-09-24T16:02:34 CFY <cl5> [ellis_ip_ab786.create] Task started 'neutron_plugin.floatingip.create'
+2015-09-24T16:02:34 CFY <cl5> [bono_ip_74cdf.create] Sending task 'neutron_plugin.floatingip.create'
+2015-09-24T16:02:34 CFY <cl5> [All_ports_open_4b446.create] Sending task 'neutron_plugin.security_group.create'
+2015-09-24T16:02:34 CFY <cl5> [bono_ip_74cdf.create] Task started 'neutron_plugin.floatingip.create'
+2015-09-24T16:02:35 CFY <cl5> [All_ports_open_4b446.create] Task started 'neutron_plugin.security_group.create'
+2015-09-24T16:02:35 CFY <cl5> [a_node_a863a] Configuring node
+2015-09-24T16:02:35 CFY <cl5> [a_node_a863a] Starting node
+2015-09-24T16:02:36 LOG <cl5> [ellis_ip_ab786.create] INFO: Floating IP creation response: {u'router_id': None, u'status': u'ACTIVE', u'tenant_id': u'24912589714038', u'floating_network_id': u'7da74520-9d5e-427b-a508-213c84e69616', u'fixed_ip_address': None, u'floating_ip_address': u'15.126.253.182', u'port_id': None, u'id': u'54047e0d-d671-42dd-9595-f032befe4afe'}
+2015-09-24T16:02:36 LOG <cl5> [bono_ip_74cdf.create] INFO: Floating IP creation response: {u'router_id': None, u'status': u'ACTIVE', u'tenant_id': u'24912589714038', u'floating_network_id': u'7da74520-9d5e-427b-a508-213c84e69616', u'fixed_ip_address': None, u'floating_ip_address': u'15.126.253.177', u'port_id': None, u'id': u'ff072536-c4e6-41db-b146-8c1e3266f670'}
+2015-09-24T16:02:39 CFY <cl5> [ellis_ip_ab786.create] Task succeeded 'neutron_plugin.floatingip.create'
+2015-09-24T16:02:40 CFY <cl5> [bono_ip_74cdf.create] Task succeeded 'neutron_plugin.floatingip.create'
+2015-09-24T16:02:40 CFY <cl5> [All_ports_open_4b446.create] Task succeeded 'neutron_plugin.security_group.create'
+2015-09-24T16:02:40 CFY <cl5> [bono_ip_74cdf] Configuring node
+2015-09-24T16:02:41 CFY <cl5> [ellis_ip_ab786] Configuring node
+2015-09-24T16:02:41 CFY <cl5> [All_ports_open_4b446] Configuring node
+2015-09-24T16:02:41 CFY <cl5> [bono_ip_74cdf] Starting node
+2015-09-24T16:02:41 CFY <cl5> [All_ports_open_4b446] Starting node
+2015-09-24T16:02:41 CFY <cl5> [ellis_ip_ab786] Starting node
+2015-09-24T16:02:42 CFY <cl5> [homer_vm_450e3] Creating node
+2015-09-24T16:02:42 CFY <cl5> [ralf_vm_936b7] Creating node
+2015-09-24T16:02:42 CFY <cl5> [sprout_vm_2cb12] Creating node
+2015-09-24T16:02:42 CFY <cl5> [sprout_vm_2cb12.create] Sending task 'nova_plugin.server.create'
+2015-09-24T16:02:42 CFY <cl5> [sprout_vm_2cb12.create] Task started 'nova_plugin.server.create'
+2015-09-24T16:02:42 CFY <cl5> [homestead_vm_4ad99] Creating node
+2015-09-24T16:02:42 CFY <cl5> [homestead_vm_4ad99.create] Sending task 'nova_plugin.server.create'
+2015-09-24T16:02:42 CFY <cl5> [homestead_vm_4ad99.create] Task started 'nova_plugin.server.create'
+2015-09-24T16:02:42 CFY <cl5> [bono_vm_eca90] Creating node
+2015-09-24T16:02:42 CFY <cl5> [dns_vm_aa41f] Creating node
+2015-09-24T16:02:42 CFY <cl5> [bono_vm_eca90.create] Sending task 'nova_plugin.server.create'
+2015-09-24T16:02:42 CFY <cl5> [dns_vm_aa41f.create] Sending task 'nova_plugin.server.create'
+2015-09-24T16:02:42 CFY <cl5> [bono_vm_eca90.create] Task started 'nova_plugin.server.create'
+2015-09-24T16:02:43 CFY <cl5> [homer_vm_450e3.create] Sending task 'nova_plugin.server.create'
+2015-09-24T16:02:43 CFY <cl5> [ralf_vm_936b7.create] Sending task 'nova_plugin.server.create'
+2015-09-24T16:02:43 CFY <cl5> [ellis_vm_94659] Creating node
+2015-09-24T16:02:43 CFY <cl5> [ellis_vm_94659.create] Sending task 'nova_plugin.server.create'
+2015-09-24T16:02:43 CFY <cl5> [dns_vm_aa41f.create] Task started 'nova_plugin.server.create'
+2015-09-24T16:02:43 CFY <cl5> [homer_vm_450e3.create] Task started 'nova_plugin.server.create'
+2015-09-24T16:02:43 LOG <cl5> [homestead_vm_4ad99.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl5_homestead_vm_4ad99', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-24T16:02:43 LOG <cl5> [sprout_vm_2cb12.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl5_sprout_vm_2cb12', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-24T16:02:44 LOG <cl5> [bono_vm_eca90.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl5_bono_vm_eca90', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-24T16:02:44 LOG <cl5> [homer_vm_450e3.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl5_homer_vm_450e3', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-24T16:02:44 LOG <cl5> [dns_vm_aa41f.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl5_dns_vm_aa41f', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-24T16:02:45 CFY <cl5> [homestead_vm_4ad99.create] Task succeeded 'nova_plugin.server.create'
+2015-09-24T16:02:45 CFY <cl5> [ralf_vm_936b7.create] Task started 'nova_plugin.server.create'
+2015-09-24T16:02:45 CFY <cl5> [bono_vm_eca90.create] Task succeeded 'nova_plugin.server.create'
+2015-09-24T16:02:45 CFY <cl5> [ellis_vm_94659.create] Task started 'nova_plugin.server.create'
+2015-09-24T16:02:46 CFY <cl5> [dns_vm_aa41f.create] Task succeeded 'nova_plugin.server.create'
+2015-09-24T16:02:46 CFY <cl5> [sprout_vm_2cb12.create] Task succeeded 'nova_plugin.server.create'
+2015-09-24T16:02:46 LOG <cl5> [ralf_vm_936b7.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl5_ralf_vm_936b7', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-24T16:02:47 LOG <cl5> [ellis_vm_94659.create] INFO: Creating VM with parameters: {'files': None, 'userdata': None, 'name': 'server_cl5_ellis_vm_94659', 'availability_zone': None, 'key_name': u'VNF-agent', 'image': u'564be9dd-5a06-4a26-ba50-9453f972e483', 'block_device_mapping': None, 'max_count': None, 'nics': [{'net-id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}], 'meta': {'cloudify_management_network_name': u'cloudify-VNF-management-network', 'cloudify_management_network_id': u'a83138e9-d7d2-4ad1-ba25-3319d5d469d6'}, 'block_device_mapping_v2': None, 'min_count': None, 'flavor': u'102', 'reservation_id': None, 'security_groups': [u'All_ports_open', u'cloudify-nfv-sg-agents']}
+2015-09-24T16:02:47 CFY <cl5> [homestead_vm_4ad99] Configuring node
+2015-09-24T16:02:47 CFY <cl5> [bono_vm_eca90] Configuring node
+2015-09-24T16:02:47 CFY <cl5> [dns_vm_aa41f] Configuring node
+2015-09-24T16:02:47 CFY <cl5> [sprout_vm_2cb12] Configuring node
+2015-09-24T16:02:47 CFY <cl5> [bono_vm_eca90] Starting node
+2015-09-24T16:02:47 CFY <cl5> [bono_vm_eca90.start] Sending task 'nova_plugin.server.start'
+2015-09-24T16:02:47 CFY <cl5> [bono_vm_eca90.start] Task started 'nova_plugin.server.start'
+2015-09-24T16:02:47 CFY <cl5> [homestead_vm_4ad99] Starting node
+2015-09-24T16:02:47 CFY <cl5> [sprout_vm_2cb12] Starting node
+2015-09-24T16:02:47 CFY <cl5> [homestead_vm_4ad99.start] Sending task 'nova_plugin.server.start'
+2015-09-24T16:02:47 CFY <cl5> [homestead_vm_4ad99.start] Task started 'nova_plugin.server.start'
+2015-09-24T16:02:48 CFY <cl5> [dns_vm_aa41f] Starting node
+2015-09-24T16:02:48 CFY <cl5> [dns_vm_aa41f.start] Sending task 'nova_plugin.server.start'
+2015-09-24T16:02:48 CFY <cl5> [sprout_vm_2cb12.start] Sending task 'nova_plugin.server.start'
+2015-09-24T16:02:48 CFY <cl5> [ellis_vm_94659.create] Task succeeded 'nova_plugin.server.create'
+2015-09-24T16:02:48 CFY <cl5> [dns_vm_aa41f.start] Task started 'nova_plugin.server.start'
+2015-09-24T16:02:48 CFY <cl5> [bono_vm_eca90.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:scheduling state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-24T16:02:48 CFY <cl5> [sprout_vm_2cb12.start] Task started 'nova_plugin.server.start'
+2015-09-24T16:02:48 CFY <cl5> [homestead_vm_4ad99.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:spawning state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-24T16:02:48 CFY <cl5> [ralf_vm_936b7.create] Task succeeded 'nova_plugin.server.create'
+2015-09-24T16:02:49 CFY <cl5> [dns_vm_aa41f.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:scheduling state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-24T16:02:49 CFY <cl5> [sprout_vm_2cb12.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:spawning state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-24T16:02:49 CFY <cl5> [ellis_vm_94659] Configuring node
+2015-09-24T16:02:49 CFY <cl5> [ralf_vm_936b7] Configuring node
+2015-09-24T16:02:49 CFY <cl5> [ellis_vm_94659] Starting node
+2015-09-24T16:02:49 CFY <cl5> [ellis_vm_94659.start] Sending task 'nova_plugin.server.start'
+2015-09-24T16:02:49 CFY <cl5> [ellis_vm_94659.start] Task started 'nova_plugin.server.start'
+2015-09-24T16:02:49 CFY <cl5> [ralf_vm_936b7] Starting node
+2015-09-24T16:02:49 CFY <cl5> [ralf_vm_936b7.start] Sending task 'nova_plugin.server.start'
+2015-09-24T16:02:49 CFY <cl5> [ralf_vm_936b7.start] Task started 'nova_plugin.server.start'
+2015-09-24T16:02:50 CFY <cl5> [ellis_vm_94659.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:spawning state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-24T16:02:50 CFY <cl5> [ralf_vm_936b7.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:scheduling state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-24T16:03:00 CFY <cl5> [homer_vm_450e3.create] Task succeeded 'nova_plugin.server.create'
+2015-09-24T16:03:00 CFY <cl5> [homer_vm_450e3] Configuring node
+2015-09-24T16:03:01 CFY <cl5> [homer_vm_450e3] Starting node
+2015-09-24T16:03:01 CFY <cl5> [homer_vm_450e3.start] Sending task 'nova_plugin.server.start'
+2015-09-24T16:03:01 CFY <cl5> [homer_vm_450e3.start] Task started 'nova_plugin.server.start'
+2015-09-24T16:03:02 CFY <cl5> [homer_vm_450e3.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:spawning state. Retrying... [retry_after=30]',) [attempt 1]
+2015-09-24T16:03:18 CFY <cl5> [bono_vm_eca90.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:18 CFY <cl5> [homestead_vm_4ad99.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:18 CFY <cl5> [bono_vm_eca90.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:18 CFY <cl5> [homestead_vm_4ad99.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:19 CFY <cl5> [dns_vm_aa41f.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:19 CFY <cl5> [dns_vm_aa41f.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:19 CFY <cl5> [sprout_vm_2cb12.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:19 CFY <cl5> [sprout_vm_2cb12.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:19 LOG <cl5> [bono_vm_eca90.start] INFO: Server is ACTIVE
+2015-09-24T16:03:19 CFY <cl5> [bono_vm_eca90.start] Task succeeded 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:19 LOG <cl5> [homestead_vm_4ad99.start] INFO: Server is ACTIVE
+2015-09-24T16:03:19 CFY <cl5> [bono_vm_eca90] Installing worker
+2015-09-24T16:03:19 CFY <cl5> [bono_vm_eca90.install] Sending task 'worker_installer.tasks.install'
+2015-09-24T16:03:19 CFY <cl5> [bono_vm_eca90.install] Task started 'worker_installer.tasks.install'
+2015-09-24T16:03:19 CFY <cl5> [dns_vm_aa41f.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:spawning state. Retrying... [retry_after=30]',) [attempt 2]
+2015-09-24T16:03:20 CFY <cl5> [homestead_vm_4ad99.start] Task succeeded 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:20 CFY <cl5> [homestead_vm_4ad99] Installing worker
+2015-09-24T16:03:20 LOG <cl5> [sprout_vm_2cb12.start] INFO: Server is ACTIVE
+2015-09-24T16:03:20 CFY <cl5> [homestead_vm_4ad99.install] Sending task 'worker_installer.tasks.install'
+2015-09-24T16:03:20 CFY <cl5> [homestead_vm_4ad99.install] Task started 'worker_installer.tasks.install'
+2015-09-24T16:03:20 CFY <cl5> [ralf_vm_936b7.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:20 CFY <cl5> [sprout_vm_2cb12.start] Task succeeded 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:20 CFY <cl5> [ellis_vm_94659.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:20 CFY <cl5> [ralf_vm_936b7.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:20 CFY <cl5> [ellis_vm_94659.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:20 CFY <cl5> [sprout_vm_2cb12] Installing worker
+2015-09-24T16:03:20 CFY <cl5> [sprout_vm_2cb12.install] Sending task 'worker_installer.tasks.install'
+2015-09-24T16:03:20 CFY <cl5> [sprout_vm_2cb12.install] Task started 'worker_installer.tasks.install'
+2015-09-24T16:03:21 LOG <cl5> [ralf_vm_936b7.start] INFO: Server is ACTIVE
+2015-09-24T16:03:21 CFY <cl5> [ralf_vm_936b7.start] Task succeeded 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:21 CFY <cl5> [ellis_vm_94659.start] Task rescheduled 'nova_plugin.server.start' -> OperationRetry('Waiting for server to be in ACTIVE state but is in BUILD:spawning state. Retrying... [retry_after=30]',) [attempt 2]
+2015-09-24T16:03:21 CFY <cl5> [ralf_vm_936b7] Installing worker
+2015-09-24T16:03:21 CFY <cl5> [ralf_vm_936b7.install] Sending task 'worker_installer.tasks.install'
+2015-09-24T16:03:21 CFY <cl5> [ralf_vm_936b7.install] Task started 'worker_installer.tasks.install'
+2015-09-24T16:03:22 LOG <cl5> [bono_vm_eca90.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Low level socket error connecting to host 10.67.79.7 on port 22: No route to host (tried 1 time)
+2015-09-24T16:03:22 CFY <cl5> [bono_vm_eca90.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Low level socket error connecting to host 10.67.79.7 on port 22: No route to host (tried 1 time)',) [attempt 1]
+2015-09-24T16:03:24 LOG <cl5> [ralf_vm_936b7.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Low level socket error connecting to host 10.67.79.8 on port 22: No route to host (tried 1 time)
+2015-09-24T16:03:24 CFY <cl5> [ralf_vm_936b7.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Low level socket error connecting to host 10.67.79.8 on port 22: No route to host (tried 1 time)',) [attempt 1]
+2015-09-24T16:03:30 LOG <cl5> [homestead_vm_4ad99.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Timed out trying to connect to 10.67.79.6 (tried 1 time)
+2015-09-24T16:03:30 CFY <cl5> [homestead_vm_4ad99.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Timed out trying to connect to 10.67.79.6 (tried 1 time)',) [attempt 1]
+2015-09-24T16:03:30 LOG <cl5> [sprout_vm_2cb12.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Timed out trying to connect to 10.67.79.4 (tried 1 time)
+2015-09-24T16:03:30 CFY <cl5> [sprout_vm_2cb12.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Timed out trying to connect to 10.67.79.4 (tried 1 time)',) [attempt 1]
+2015-09-24T16:03:32 CFY <cl5> [homer_vm_450e3.start] Sending task 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:32 CFY <cl5> [homer_vm_450e3.start] Task started 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:32 LOG <cl5> [homer_vm_450e3.start] INFO: Server is ACTIVE
+2015-09-24T16:03:32 CFY <cl5> [homer_vm_450e3.start] Task succeeded 'nova_plugin.server.start' [attempt 2]
+2015-09-24T16:03:33 CFY <cl5> [homer_vm_450e3] Installing worker
+2015-09-24T16:03:33 CFY <cl5> [homer_vm_450e3.install] Sending task 'worker_installer.tasks.install'
+2015-09-24T16:03:33 CFY <cl5> [homer_vm_450e3.install] Task started 'worker_installer.tasks.install'
+2015-09-24T16:03:43 LOG <cl5> [homer_vm_450e3.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Timed out trying to connect to 10.67.79.9 (tried 1 time)
+2015-09-24T16:03:43 CFY <cl5> [homer_vm_450e3.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Timed out trying to connect to 10.67.79.9 (tried 1 time)',) [attempt 1]
+2015-09-24T16:03:50 CFY <cl5> [dns_vm_aa41f.start] Sending task 'nova_plugin.server.start' [attempt 3]
+2015-09-24T16:03:50 CFY <cl5> [dns_vm_aa41f.start] Task started 'nova_plugin.server.start' [attempt 3]
+2015-09-24T16:03:51 CFY <cl5> [ellis_vm_94659.start] Sending task 'nova_plugin.server.start' [attempt 3]
+2015-09-24T16:03:51 CFY <cl5> [ellis_vm_94659.start] Task started 'nova_plugin.server.start' [attempt 3]
+2015-09-24T16:03:52 LOG <cl5> [ellis_vm_94659.start] INFO: Server is ACTIVE
+2015-09-24T16:03:52 CFY <cl5> [ellis_vm_94659.start] Task succeeded 'nova_plugin.server.start' [attempt 3]
+2015-09-24T16:03:52 CFY <cl5> [ellis_vm_94659] Installing worker
+2015-09-24T16:03:52 CFY <cl5> [ellis_vm_94659.install] Sending task 'worker_installer.tasks.install'
+2015-09-24T16:03:52 CFY <cl5> [ellis_vm_94659.install] Task started 'worker_installer.tasks.install'
+2015-09-24T16:03:52 LOG <cl5> [ellis_vm_94659.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Low level socket error connecting to host 10.67.79.5 on port 22: Connection refused (tried 1 time)
+2015-09-24T16:03:52 CFY <cl5> [ellis_vm_94659.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Low level socket error connecting to host 10.67.79.5 on port 22: Connection refused (tried 1 time)',) [attempt 1]
+2015-09-24T16:03:53 CFY <cl5> [bono_vm_eca90.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:03:53 CFY <cl5> [bono_vm_eca90.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:03:53 LOG <cl5> [bono_vm_eca90.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Low level socket error connecting to host 10.67.79.7 on port 22: Connection refused (tried 1 time)
+2015-09-24T16:03:53 CFY <cl5> [bono_vm_eca90.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Low level socket error connecting to host 10.67.79.7 on port 22: Connection refused (tried 1 time)',) [attempt 2]
+2015-09-24T16:03:54 CFY <cl5> [ralf_vm_936b7.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:03:54 CFY <cl5> [ralf_vm_936b7.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:03:54 LOG <cl5> [ralf_vm_936b7.install] ERROR: Exception raised on operation [worker_installer.tasks.install] invocation
+Traceback (most recent call last):
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/cloudify/decorators.py", line 125, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 63, in wrapper
+    prepare_additional_configuration(ctx, agent_config, runner)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 247, in prepare_additional_configuration
+    _set_home_dir(runner, agent_config)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 201, in _set_home_dir
+    'pwd.getpwnam(\'{0}\').pw_dir'.format(config['user']))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/__init__.py", line 109, in _run_py_cmd_with_output
+    command))
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/worker_installer/utils.py", line 94, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 639, in host_prompting_wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 1042, in run
+    shell_escape=shell_escape)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/operations.py", line 909, in _run_command
+    channel=default_channel(), command=wrapped_command, pty=pty,
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 388, in default_channel
+    chan = _open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/state.py", line 380, in _open_session
+    return connections[env.host_string].get_transport().open_session()
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 151, in __getitem__
+    self.connect(key)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 143, in connect
+    self[key] = connect(user, host, port, cache=self)
+  File "/home/ubuntu/cloudify.cl5/env/local/lib/python2.7/site-packages/fabric/network.py", line 565, in connect
+    raise NetworkError(msg, e)
+NetworkError: Low level socket error connecting to host 10.67.79.8 on port 22: Connection refused (tried 1 time)
+2015-09-24T16:03:54 CFY <cl5> [ralf_vm_936b7.install] Task failed 'worker_installer.tasks.install' -> RecoverableError('NetworkError: Low level socket error connecting to host 10.67.79.8 on port 22: Connection refused (tried 1 time)',) [attempt 2]
+2015-09-24T16:04:00 CFY <cl5> [homestead_vm_4ad99.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:00 CFY <cl5> [homestead_vm_4ad99.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:01 CFY <cl5> [sprout_vm_2cb12.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:01 CFY <cl5> [sprout_vm_2cb12.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:03 LOG <cl5> [dns_vm_aa41f.start] INFO: Server is ACTIVE
+2015-09-24T16:04:03 CFY <cl5> [dns_vm_aa41f.start] Task succeeded 'nova_plugin.server.start' [attempt 3]
+2015-09-24T16:04:03 CFY <cl5> [dns_vm_aa41f] Installing worker
+2015-09-24T16:04:03 CFY <cl5> [dns_vm_aa41f.install] Sending task 'worker_installer.tasks.install'
+2015-09-24T16:04:03 CFY <cl5> [dns_vm_aa41f.install] Task started 'worker_installer.tasks.install'
+2015-09-24T16:04:09 LOG <cl5> [homestead_vm_4ad99.install] INFO: Installing cloudify agent homestead_vm_4ad99. Connection details --> {'host': u'10.67.79.6', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:10 LOG <cl5> [sprout_vm_2cb12.install] INFO: Installing cloudify agent sprout_vm_2cb12. Connection details --> {'host': u'10.67.79.4', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:12 LOG <cl5> [dns_vm_aa41f.install] INFO: Installing cloudify agent dns_vm_aa41f. Connection details --> {'host': u'10.67.79.10', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:13 CFY <cl5> [homer_vm_450e3.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:13 CFY <cl5> [homer_vm_450e3.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:15 CFY <cl5> [homestead_vm_4ad99.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:15 CFY <cl5> [homestead_vm_4ad99.start] Sending task 'worker_installer.tasks.start'
+2015-09-24T16:04:15 CFY <cl5> [homestead_vm_4ad99.start] Task started 'worker_installer.tasks.start'
+2015-09-24T16:04:17 CFY <cl5> [sprout_vm_2cb12.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:18 CFY <cl5> [sprout_vm_2cb12.start] Sending task 'worker_installer.tasks.start'
+2015-09-24T16:04:18 CFY <cl5> [sprout_vm_2cb12.start] Task started 'worker_installer.tasks.start'
+2015-09-24T16:04:18 CFY <cl5> [dns_vm_aa41f.install] Task succeeded 'worker_installer.tasks.install'
+2015-09-24T16:04:18 LOG <cl5> [homestead_vm_4ad99.start] INFO: Starting cloudify agent homestead_vm_4ad99. Connection details --> {'host': u'10.67.79.6', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:18 CFY <cl5> [dns_vm_aa41f.start] Sending task 'worker_installer.tasks.start'
+2015-09-24T16:04:18 CFY <cl5> [dns_vm_aa41f.start] Task started 'worker_installer.tasks.start'
+2015-09-24T16:04:20 LOG <cl5> [sprout_vm_2cb12.start] INFO: Starting cloudify agent sprout_vm_2cb12. Connection details --> {'host': u'10.67.79.4', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:21 LOG <cl5> [dns_vm_aa41f.start] INFO: Starting cloudify agent dns_vm_aa41f. Connection details --> {'host': u'10.67.79.10', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:22 CFY <cl5> [ellis_vm_94659.install] Sending task 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:22 CFY <cl5> [ellis_vm_94659.install] Task started 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:23 LOG <cl5> [homer_vm_450e3.install] INFO: Installing cloudify agent homer_vm_450e3. Connection details --> {'host': u'10.67.79.9', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:23 CFY <cl5> [bono_vm_eca90.install] Sending task 'worker_installer.tasks.install' [attempt 3]
+2015-09-24T16:04:24 CFY <cl5> [homestead_vm_4ad99.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-24T16:04:24 CFY <cl5> [bono_vm_eca90.install] Task started 'worker_installer.tasks.install' [attempt 3]
+2015-09-24T16:04:24 CFY <cl5> [homestead_vm_4ad99] Installing host plugins
+2015-09-24T16:04:24 CFY <cl5> [ralf_vm_936b7.install] Sending task 'worker_installer.tasks.install' [attempt 3]
+2015-09-24T16:04:24 CFY <cl5> [homestead_vm_4ad99.install] Sending task 'plugin_installer.tasks.install'
+2015-09-24T16:04:24 LOG <cl5> [homestead_vm_4ad99.install] INFO: Installing dns-plugin
+2015-09-24T16:04:24 CFY <cl5> [homestead_vm_4ad99.install] Task started 'plugin_installer.tasks.install'
+2015-09-24T16:04:26 CFY <cl5> [homestead_vm_4ad99.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-24T16:04:27 CFY <cl5> [sprout_vm_2cb12.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-24T16:04:27 CFY <cl5> [ralf_vm_936b7.install] Task started 'worker_installer.tasks.install' [attempt 3]
+2015-09-24T16:04:27 CFY <cl5> [dns_vm_aa41f.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-24T16:04:27 CFY <cl5> [sprout_vm_2cb12] Installing host plugins
+2015-09-24T16:04:27 CFY <cl5> [sprout_vm_2cb12.install] Sending task 'plugin_installer.tasks.install'
+2015-09-24T16:04:27 CFY <cl5> [sprout_vm_2cb12.install] Task started 'plugin_installer.tasks.install'
+2015-09-24T16:04:27 LOG <cl5> [sprout_vm_2cb12.install] INFO: Installing dns-plugin
+2015-09-24T16:04:28 CFY <cl5> [dns_app_01e01] Creating node
+2015-09-24T16:04:28 CFY <cl5> [dns_app_01e01.create] Sending task 'script_runner.tasks.run'
+2015-09-24T16:04:28 CFY <cl5> [dns_app_01e01.create] Task started 'script_runner.tasks.run'
+2015-09-24T16:04:28 LOG <cl5> [dns_app_01e01.create] INFO: Downloaded scripts/dns.sh to /tmp/OJCNL/dns.sh
+2015-09-24T16:04:28 LOG <cl5> [dns_app_01e01.create] INFO: Executing: /usr/bin/sudo /tmp/OJCNL/dns.sh
+2015-09-24T16:04:29 CFY <cl5> [homer_vm_450e3.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:29 CFY <cl5> [homer_vm_450e3.start] Sending task 'worker_installer.tasks.start'
+2015-09-24T16:04:29 CFY <cl5> [homer_vm_450e3.start] Task started 'worker_installer.tasks.start'
+2015-09-24T16:04:29 LOG <cl5> [sprout_vm_2cb12.install] INFO: Installing diamond
+2015-09-24T16:04:30 LOG <cl5> [homestead_vm_4ad99.restart] INFO: Restarting cloudify agent homestead_vm_4ad99. Connection details --> {'host': u'10.67.79.6', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:31 CFY <cl5> [sprout_vm_2cb12.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-24T16:04:32 LOG <cl5> [homer_vm_450e3.start] INFO: Starting cloudify agent homer_vm_450e3. Connection details --> {'host': u'10.67.79.9', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:32 LOG <cl5> [ellis_vm_94659.install] INFO: Installing cloudify agent ellis_vm_94659. Connection details --> {'host': u'10.67.79.5', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:34 LOG <cl5> [bono_vm_eca90.install] INFO: Installing cloudify agent bono_vm_eca90. Connection details --> {'host': u'10.67.79.7', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:37 LOG <cl5> [ralf_vm_936b7.install] INFO: Installing cloudify agent ralf_vm_936b7. Connection details --> {'host': u'10.67.79.8', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:38 CFY <cl5> [homer_vm_450e3.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-24T16:04:38 CFY <cl5> [homer_vm_450e3] Installing host plugins
+2015-09-24T16:04:38 CFY <cl5> [ellis_vm_94659.install] Task succeeded 'worker_installer.tasks.install' [attempt 2]
+2015-09-24T16:04:38 CFY <cl5> [ellis_vm_94659.start] Sending task 'worker_installer.tasks.start'
+2015-09-24T16:04:38 CFY <cl5> [homer_vm_450e3.install] Sending task 'plugin_installer.tasks.install'
+2015-09-24T16:04:38 CFY <cl5> [ellis_vm_94659.start] Task started 'worker_installer.tasks.start'
+2015-09-24T16:04:38 CFY <cl5> [homer_vm_450e3.install] Task started 'plugin_installer.tasks.install'
+2015-09-24T16:04:38 LOG <cl5> [homer_vm_450e3.install] INFO: Installing dns-plugin
+2015-09-24T16:04:40 CFY <cl5> [homer_vm_450e3.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-24T16:04:41 CFY <cl5> [bono_vm_eca90.install] Task succeeded 'worker_installer.tasks.install' [attempt 3]
+2015-09-24T16:04:41 CFY <cl5> [bono_vm_eca90.start] Sending task 'worker_installer.tasks.start'
+2015-09-24T16:04:41 LOG <cl5> [sprout_vm_2cb12.restart] INFO: Restarting cloudify agent sprout_vm_2cb12. Connection details --> {'host': u'10.67.79.4', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:42 LOG <cl5> [ellis_vm_94659.start] INFO: Starting cloudify agent ellis_vm_94659. Connection details --> {'host': u'10.67.79.5', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:43 CFY <cl5> [bono_vm_eca90.start] Task started 'worker_installer.tasks.start'
+2015-09-24T16:04:43 CFY <cl5> [ralf_vm_936b7.install] Task succeeded 'worker_installer.tasks.install' [attempt 3]
+2015-09-24T16:04:43 CFY <cl5> [ralf_vm_936b7.start] Sending task 'worker_installer.tasks.start'
+2015-09-24T16:04:43 CFY <cl5> [ralf_vm_936b7.start] Task started 'worker_installer.tasks.start'
+2015-09-24T16:04:43 LOG <cl5> [homer_vm_450e3.restart] INFO: Restarting cloudify agent homer_vm_450e3. Connection details --> {'host': u'10.67.79.9', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:46 LOG <cl5> [bono_vm_eca90.start] INFO: Starting cloudify agent bono_vm_eca90. Connection details --> {'host': u'10.67.79.7', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:46 LOG <cl5> [ralf_vm_936b7.start] INFO: Starting cloudify agent ralf_vm_936b7. Connection details --> {'host': u'10.67.79.8', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:48 CFY <cl5> [ellis_vm_94659.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-24T16:04:48 CFY <cl5> [ellis_vm_94659] Installing host plugins
+2015-09-24T16:04:48 CFY <cl5> [ellis_vm_94659.install] Sending task 'plugin_installer.tasks.install'
+2015-09-24T16:04:48 CFY <cl5> [ellis_vm_94659.install] Task started 'plugin_installer.tasks.install'
+2015-09-24T16:04:48 LOG <cl5> [ellis_vm_94659.install] INFO: Installing dns-plugin
+2015-09-24T16:04:49 CFY <cl5> [sprout_vm_2cb12.install] Sending task 'diamond_agent.tasks.install'
+2015-09-24T16:04:49 CFY <cl5> [sprout_vm_2cb12.install] Task started 'diamond_agent.tasks.install'
+2015-09-24T16:04:50 CFY <cl5> [sprout_vm_2cb12.install] Task succeeded 'diamond_agent.tasks.install'
+2015-09-24T16:04:50 CFY <cl5> [sprout_vm_2cb12.start] Sending task 'diamond_agent.tasks.start'
+2015-09-24T16:04:50 CFY <cl5> [sprout_vm_2cb12.start] Task started 'diamond_agent.tasks.start'
+2015-09-24T16:04:50 CFY <cl5> [sprout_vm_2cb12.start] Task succeeded 'diamond_agent.tasks.start'
+2015-09-24T16:04:50 CFY <cl5> [sprout_vm_2cb12.start] Sending task 'diamond_agent.tasks.add_collectors'
+2015-09-24T16:04:50 CFY <cl5> [sprout_vm_2cb12.start] Task started 'diamond_agent.tasks.add_collectors'
+2015-09-24T16:04:50 CFY <cl5> [ellis_vm_94659.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-24T16:04:51 CFY <cl5> [dns_app_01e01.create] Task succeeded 'script_runner.tasks.run'
+2015-09-24T16:04:51 LOG <cl5> [dns_app_01e01.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/OJCNL/dns.sh
+2015-09-24T16:04:51 CFY <cl5> [dns_app_01e01] Configuring node
+2015-09-24T16:04:51 CFY <cl5> [sprout_vm_2cb12.start] Task succeeded 'diamond_agent.tasks.add_collectors'
+2015-09-24T16:04:52 CFY <cl5> [ralf_vm_936b7.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-24T16:04:52 CFY <cl5> [dns_app_01e01] Starting node
+2015-09-24T16:04:52 CFY <cl5> [ralf_vm_936b7] Installing host plugins
+2015-09-24T16:04:52 CFY <cl5> [ralf_vm_936b7.install] Sending task 'plugin_installer.tasks.install'
+2015-09-24T16:04:52 CFY <cl5> [ralf_vm_936b7.install] Task started 'plugin_installer.tasks.install'
+2015-09-24T16:04:52 LOG <cl5> [ralf_vm_936b7.install] INFO: Installing dns-plugin
+2015-09-24T16:04:53 CFY <cl5> [homer_app_3fb5f] Creating node
+2015-09-24T16:04:53 CFY <cl5> [homestead_app_35916] Creating node
+2015-09-24T16:04:53 CFY <cl5> [homestead_app_35916.create] Sending task 'script_runner.tasks.run'
+2015-09-24T16:04:53 CFY <cl5> [homer_app_3fb5f.create] Sending task 'script_runner.tasks.run'
+2015-09-24T16:04:53 CFY <cl5> [sprout_app_750d2] Creating node
+2015-09-24T16:04:53 CFY <cl5> [homestead_app_35916.create] Task started 'script_runner.tasks.run'
+2015-09-24T16:04:53 CFY <cl5> [homer_app_3fb5f.create] Task started 'script_runner.tasks.run'
+2015-09-24T16:04:53 CFY <cl5> [sprout_app_750d2.create] Sending task 'script_runner.tasks.run'
+2015-09-24T16:04:53 LOG <cl5> [ellis_vm_94659.restart] INFO: Restarting cloudify agent ellis_vm_94659. Connection details --> {'host': u'10.67.79.5', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:53 CFY <cl5> [sprout_app_750d2.create] Task started 'script_runner.tasks.run'
+2015-09-24T16:04:53 LOG <cl5> [homer_app_3fb5f.create] INFO: Downloaded scripts/homer.sh to /tmp/N995Y/homer.sh
+2015-09-24T16:04:53 LOG <cl5> [homestead_app_35916.create] INFO: Downloaded scripts/homestead.sh to /tmp/OG53C/homestead.sh
+2015-09-24T16:04:53 LOG <cl5> [sprout_app_750d2.create] INFO: Downloaded scripts/sprout.sh to /tmp/5N25W/sprout.sh
+2015-09-24T16:04:53 LOG <cl5> [homer_app_3fb5f.create] INFO: Executing: /usr/bin/sudo /tmp/N995Y/homer.sh
+2015-09-24T16:04:53 LOG <cl5> [homestead_app_35916.create] INFO: Executing: /usr/bin/sudo /tmp/OG53C/homestead.sh
+2015-09-24T16:04:53 LOG <cl5> [sprout_app_750d2.create] INFO: Executing: /usr/bin/sudo /tmp/5N25W/sprout.sh
+2015-09-24T16:04:54 CFY <cl5> [bono_vm_eca90.start] Task succeeded 'worker_installer.tasks.start'
+2015-09-24T16:04:54 CFY <cl5> [bono_vm_eca90] Installing host plugins
+2015-09-24T16:04:54 CFY <cl5> [bono_vm_eca90.install] Sending task 'plugin_installer.tasks.install'
+2015-09-24T16:04:54 CFY <cl5> [bono_vm_eca90.install] Task started 'plugin_installer.tasks.install'
+2015-09-24T16:04:54 CFY <cl5> [ralf_vm_936b7.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-24T16:04:54 LOG <cl5> [bono_vm_eca90.install] INFO: Installing dns-plugin
+2015-09-24T16:04:57 LOG <cl5> [bono_vm_eca90.install] INFO: Installing diamond
+2015-09-24T16:04:57 LOG <cl5> [ralf_vm_936b7.restart] INFO: Restarting cloudify agent ralf_vm_936b7. Connection details --> {'host': u'10.67.79.8', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:04:59 CFY <cl5> [bono_vm_eca90.install] Task succeeded 'plugin_installer.tasks.install'
+2015-09-24T16:05:01 CFY <cl5> [ellis_vm_94659->ellis_ip_ab786|establish] Sending task 'nova_plugin.server.connect_floatingip'
+2015-09-24T16:05:01 CFY <cl5> [ellis_vm_94659->ellis_ip_ab786|establish] Task started 'nova_plugin.server.connect_floatingip'
+2015-09-24T16:05:01 LOG <cl5> [bono_vm_eca90.restart] INFO: Restarting cloudify agent bono_vm_eca90. Connection details --> {'host': u'10.67.79.7', 'user': u'ubuntu', 'key': u'~/.ssh/agent_key.pem'}
+2015-09-24T16:05:02 CFY <cl5> [ellis_vm_94659->ellis_ip_ab786|establish] Task succeeded 'nova_plugin.server.connect_floatingip'
+2015-09-24T16:05:03 CFY <cl5> [ellis_app_dc4ab] Creating node
+2015-09-24T16:05:03 CFY <cl5> [ellis_app_dc4ab.create] Sending task 'script_runner.tasks.run'
+2015-09-24T16:05:03 CFY <cl5> [ellis_app_dc4ab.create] Task started 'script_runner.tasks.run'
+2015-09-24T16:05:03 LOG <cl5> [ellis_app_dc4ab.create] INFO: Downloaded scripts/ellis.sh to /tmp/KXTD0/ellis.sh
+2015-09-24T16:05:03 LOG <cl5> [ellis_app_dc4ab.create] INFO: Executing: /usr/bin/sudo /tmp/KXTD0/ellis.sh
+2015-09-24T16:05:05 CFY <cl5> [ralf_app_ecb66] Creating node
+2015-09-24T16:05:05 CFY <cl5> [ralf_app_ecb66.create] Sending task 'script_runner.tasks.run'
+2015-09-24T16:05:05 CFY <cl5> [ralf_app_ecb66.create] Task started 'script_runner.tasks.run'
+2015-09-24T16:05:05 LOG <cl5> [ralf_app_ecb66.create] INFO: Downloaded scripts/ralf.sh to /tmp/QZQ73/ralf.sh
+2015-09-24T16:05:05 LOG <cl5> [ralf_app_ecb66.create] INFO: Executing: /usr/bin/sudo /tmp/QZQ73/ralf.sh
+2015-09-24T16:05:10 CFY <cl5> [bono_vm_eca90.install] Sending task 'diamond_agent.tasks.install'
+2015-09-24T16:05:10 CFY <cl5> [bono_vm_eca90.install] Task started 'diamond_agent.tasks.install'
+2015-09-24T16:05:10 CFY <cl5> [bono_vm_eca90.install] Task succeeded 'diamond_agent.tasks.install'
+2015-09-24T16:05:10 CFY <cl5> [bono_vm_eca90.start] Sending task 'diamond_agent.tasks.start'
+2015-09-24T16:05:10 CFY <cl5> [bono_vm_eca90.start] Task started 'diamond_agent.tasks.start'
+2015-09-24T16:05:10 CFY <cl5> [bono_vm_eca90.start] Task succeeded 'diamond_agent.tasks.start'
+2015-09-24T16:05:10 CFY <cl5> [bono_vm_eca90.start] Sending task 'diamond_agent.tasks.add_collectors'
+2015-09-24T16:05:10 CFY <cl5> [bono_vm_eca90->bono_ip_74cdf|establish] Sending task 'nova_plugin.server.connect_floatingip'
+2015-09-24T16:05:10 CFY <cl5> [bono_vm_eca90->bono_ip_74cdf|establish] Task started 'nova_plugin.server.connect_floatingip'
+2015-09-24T16:05:10 CFY <cl5> [bono_vm_eca90.start] Task started 'diamond_agent.tasks.add_collectors'
+2015-09-24T16:05:11 CFY <cl5> [bono_vm_eca90.start] Task succeeded 'diamond_agent.tasks.add_collectors'
+2015-09-24T16:05:12 CFY <cl5> [bono_vm_eca90->bono_ip_74cdf|establish] Task succeeded 'nova_plugin.server.connect_floatingip'
+2015-09-24T16:05:12 CFY <cl5> [policy_node_e308e] Creating node
+2015-09-24T16:05:12 CFY <cl5> [bono_app_f4607] Creating node
+2015-09-24T16:05:12 CFY <cl5> [bono_app_f4607->dns_app_01e01|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:05:12 CFY <cl5> [bono_app_f4607->dns_app_01e01|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:05:12 LOG <cl5> [bono_app_f4607->dns_app_01e01|preconfigure] INFO: DNS SETUP 10.67.79.10
+2015-09-24T16:05:12 CFY <cl5> [policy_node_e308e] Configuring node
+2015-09-24T16:05:13 LOG <cl5> [bono_app_f4607->dns_app_01e01|preconfigure] INFO: DNS SETUP nameserver 10.67.79.10
+2015-09-24T16:05:13 CFY <cl5> [bono_app_f4607->dns_app_01e01|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:05:13 CFY <cl5> [bono_app_f4607] Configuring node
+2015-09-24T16:05:13 CFY <cl5> [policy_node_e308e] Starting node
+2015-09-24T16:05:13 CFY <cl5> [policy_node_e308e.start] Sending task 'script_runner.tasks.run'
+2015-09-24T16:05:13 CFY <cl5> [policy_node_e308e.start] Task started 'script_runner.tasks.run'
+2015-09-24T16:05:13 LOG <cl5> [policy_node_e308e.start] INFO: Downloaded scripts/policy-start.sh to /tmp/PW06Q/policy-start.sh
+2015-09-24T16:05:13 LOG <cl5> [policy_node_e308e.start] INFO: Executing: /tmp/PW06Q/policy-start.sh
+2015-09-24T16:05:13 LOG <cl5> [policy_node_e308e.start] INFO: Execution done (return_code=0): /tmp/PW06Q/policy-start.sh
+2015-09-24T16:05:13 CFY <cl5> [policy_node_e308e.start] Task succeeded 'script_runner.tasks.run'
+2015-09-24T16:05:13 CFY <cl5> [bono_app_f4607] Starting node
+2015-09-24T16:07:15 LOG <cl5> [sprout_app_750d2.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/5N25W/sprout.sh
+2015-09-24T16:07:15 CFY <cl5> [sprout_app_750d2.create] Task succeeded 'script_runner.tasks.run'
+2015-09-24T16:07:15 CFY <cl5> [sprout_app_750d2->dns_app_01e01|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:07:15 CFY <cl5> [sprout_app_750d2->dns_app_01e01|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:07:15 LOG <cl5> [sprout_app_750d2->dns_app_01e01|preconfigure] INFO: DNS SETUP 10.67.79.10
+2015-09-24T16:07:18 LOG <cl5> [sprout_app_750d2->dns_app_01e01|preconfigure] INFO: DNS SETUP nameserver 10.67.79.10
+2015-09-24T16:07:18 CFY <cl5> [sprout_app_750d2->dns_app_01e01|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:07:18 CFY <cl5> [sprout_app_750d2] Configuring node
+2015-09-24T16:07:18 CFY <cl5> [sprout_app_750d2] Starting node
+2015-09-24T16:07:32 CFY <cl5> [ellis_app_dc4ab.create] Task succeeded 'script_runner.tasks.run'
+2015-09-24T16:07:32 LOG <cl5> [ellis_app_dc4ab.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/KXTD0/ellis.sh
+2015-09-24T16:07:32 CFY <cl5> [ellis_app_dc4ab->dns_app_01e01|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:07:32 CFY <cl5> [ellis_app_dc4ab->dns_app_01e01|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:07:32 LOG <cl5> [ellis_app_dc4ab->dns_app_01e01|preconfigure] INFO: DNS SETUP 10.67.79.10
+2015-09-24T16:07:34 LOG <cl5> [ellis_app_dc4ab->dns_app_01e01|preconfigure] INFO: DNS SETUP nameserver 10.67.79.10
+2015-09-24T16:07:34 CFY <cl5> [ellis_app_dc4ab->dns_app_01e01|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:07:35 CFY <cl5> [ellis_app_dc4ab] Configuring node
+2015-09-24T16:07:35 CFY <cl5> [ellis_app_dc4ab] Starting node
+2015-09-24T16:07:46 LOG <cl5> [ralf_app_ecb66.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/QZQ73/ralf.sh
+2015-09-24T16:07:47 CFY <cl5> [ralf_app_ecb66.create] Task succeeded 'script_runner.tasks.run'
+2015-09-24T16:07:47 CFY <cl5> [ralf_app_ecb66->dns_app_01e01|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:07:47 CFY <cl5> [ralf_app_ecb66->dns_app_01e01|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:07:47 LOG <cl5> [ralf_app_ecb66->dns_app_01e01|preconfigure] INFO: DNS SETUP 10.67.79.10
+2015-09-24T16:07:49 CFY <cl5> [ralf_app_ecb66->dns_app_01e01|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:07:49 LOG <cl5> [ralf_app_ecb66->dns_app_01e01|preconfigure] INFO: DNS SETUP nameserver 10.67.79.10
+2015-09-24T16:07:49 CFY <cl5> [ralf_app_ecb66] Configuring node
+2015-09-24T16:07:50 CFY <cl5> [ralf_app_ecb66] Starting node
+2015-09-24T16:08:04 CFY <cl5> [homer_app_3fb5f.create] Task succeeded 'script_runner.tasks.run'
+2015-09-24T16:08:04 LOG <cl5> [homer_app_3fb5f.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/N995Y/homer.sh
+2015-09-24T16:08:05 CFY <cl5> [homer_app_3fb5f->dns_app_01e01|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:08:05 CFY <cl5> [homer_app_3fb5f->dns_app_01e01|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:08:05 LOG <cl5> [homer_app_3fb5f->dns_app_01e01|preconfigure] INFO: DNS SETUP 10.67.79.10
+2015-09-24T16:08:07 CFY <cl5> [homer_app_3fb5f->dns_app_01e01|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:08:07 LOG <cl5> [homer_app_3fb5f->dns_app_01e01|preconfigure] INFO: DNS SETUP nameserver 10.67.79.10
+2015-09-24T16:08:07 CFY <cl5> [homer_app_3fb5f] Configuring node
+2015-09-24T16:08:07 CFY <cl5> [homer_app_3fb5f] Starting node
+2015-09-24T16:08:20 LOG <cl5> [homestead_app_35916.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/OG53C/homestead.sh
+2015-09-24T16:08:22 CFY <cl5> [homestead_app_35916.create] Task succeeded 'script_runner.tasks.run'
+2015-09-24T16:08:22 CFY <cl5> [homestead_app_35916->dns_app_01e01|preconfigure] Sending task 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:08:22 CFY <cl5> [homestead_app_35916->dns_app_01e01|preconfigure] Task started 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:08:23 LOG <cl5> [homestead_app_35916->dns_app_01e01|preconfigure] INFO: DNS SETUP 10.67.79.10
+2015-09-24T16:08:25 LOG <cl5> [homestead_app_35916->dns_app_01e01|preconfigure] INFO: DNS SETUP nameserver 10.67.79.10
+2015-09-24T16:08:25 CFY <cl5> [homestead_app_35916->dns_app_01e01|preconfigure] Task succeeded 'dns_plugin.tasks.configure_resolv_conf'
+2015-09-24T16:08:25 CFY <cl5> [homestead_app_35916] Configuring node
+2015-09-24T16:08:26 CFY <cl5> [homestead_app_35916] Starting node
+2015-09-24T16:08:27 CFY <cl5> [dns_app_config_96e5a] Creating node
+2015-09-24T16:08:27 CFY <cl5> [dns_app_config_96e5a.create] Sending task 'script_runner.tasks.run'
+2015-09-24T16:08:27 CFY <cl5> [dns_app_config_96e5a.create] Task started 'script_runner.tasks.run'
+2015-09-24T16:08:27 LOG <cl5> [dns_app_config_96e5a.create] INFO: Downloaded scripts/dns-config.sh to /tmp/MNPSP/dns-config.sh
+2015-09-24T16:08:27 LOG <cl5> [dns_app_config_96e5a.create] INFO: Executing: /usr/bin/sudo /tmp/MNPSP/dns-config.sh
+2015-09-24T16:08:27 CFY <cl5> [dns_app_config_96e5a.create] Task succeeded 'script_runner.tasks.run'
+2015-09-24T16:08:27 LOG <cl5> [dns_app_config_96e5a.create] INFO: Execution done (return_code=0): /usr/bin/sudo /tmp/MNPSP/dns-config.sh
+2015-09-24T16:08:27 CFY <cl5> [dns_app_config_96e5a] Configuring node
+2015-09-24T16:08:28 CFY <cl5> [dns_app_config_96e5a] Starting node
+2015-09-24T16:08:28 CFY <cl5> 'install' workflow execution succeeded
+
+Total events: 391
